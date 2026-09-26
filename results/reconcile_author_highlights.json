@@ -1,0 +1,43 @@
+{
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Author green spreadsheet formatting exactly encodes the article\u2019s concordant list; it is not independent reanalysis",
+    "Some green rows fail a literal displayed FC cutoff while both q values pass; infer only that original author criterion may include hidden/rounding or different threshold details, not a corrected effect estimate",
+    "Spreadsheets contain selected summary DETs, not full per-sample counts; no out-of-study benchmark or independent biological discovery"
+  ],
+  "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "paper_reported_concordant_det": {
+    "S1": 1750,
+    "S2": 172,
+    "S3": 52
+  },
+  "supplement": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9168996/supplementaryFiles",
+  "tables": {
+    "S1": {
+      "green_concordant": 1750,
+      "green_rows_not_matching_literal_both_q_and_FC": 17,
+      "red_only_edgeR": 278,
+      "sha256": "36f6b9551e72e3c7709a33c4ca4f70ec003222983362899d154f6d59a5704351",
+      "yellow_only_DESeq2": 2650
+    },
+    "S2": {
+      "green_concordant": 172,
+      "green_rows_not_matching_literal_both_q_and_FC": 1,
+      "red_only_edgeR": 52,
+      "sha256": "fda9cf638a63a21ea6b0bbedb8f1dbc040fd12c4fe13064f649c7e4b6fa71c98",
+      "yellow_only_DESeq2": 786
+    },
+    "S3": {
+      "green_concordant": 52,
+      "green_rows_not_matching_literal_both_q_and_FC": 1,
+      "red_only_edgeR": 21,
+      "sha256": "bfefc327e1518708c425c7dfd4fe36711229641278e88acf3b5f68becc5380c8",
+      "yellow_only_DESeq2": 465
+    }
+  }
+}
