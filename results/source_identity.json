@@ -1,0 +1,134 @@
+{
+  "article_run_count": 18,
+  "ena_report": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA766994&result=read_run&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Cstudy_accession&format=tsv",
+  "ena_run_count": 18,
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "One study, not 18 independent experimental studies",
+    "Only run metadata and publication fetched, not sequencing payloads or raw phenotypes",
+    "Do not infer fitness, growth advantage, environmental safety or genomic engineering directions from this screen"
+  ],
+  "published_runs_match_ena": true,
+  "runs": [
+    {
+      "experiment_accession": "SRX12383410",
+      "run_accession": "SRR16097286",
+      "sample_accession": "SAMN21879926",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX12391468",
+      "run_accession": "SRR16105563",
+      "sample_accession": "SAMN21888739",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX12401436",
+      "run_accession": "SRR16115861",
+      "sample_accession": "SAMN21897461",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX12408054",
+      "run_accession": "SRR16122595",
+      "sample_accession": "SAMN21906090",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13150185",
+      "run_accession": "SRR16958615",
+      "sample_accession": "SAMN23204606",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13150201",
+      "run_accession": "SRR16958631",
+      "sample_accession": "SAMN23208605",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13166669",
+      "run_accession": "SRR16975862",
+      "sample_accession": "SAMN23283130",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13178863",
+      "run_accession": "SRR16988317",
+      "sample_accession": "SAMN23285525",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13228498",
+      "run_accession": "SRR17038623",
+      "sample_accession": "SAMN23437881",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13618073",
+      "run_accession": "SRR17446820",
+      "sample_accession": "SAMN23828911",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13640454",
+      "run_accession": "SRR17469864",
+      "sample_accession": "SAMN24695621",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13652489",
+      "run_accession": "SRR17481976",
+      "sample_accession": "SAMN23583342",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13652490",
+      "run_accession": "SRR17481977",
+      "sample_accession": "SAMN23439955",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13670405",
+      "run_accession": "SRR17500070",
+      "sample_accession": "SAMN24746880",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13670447",
+      "run_accession": "SRR17500112",
+      "sample_accession": "SAMN24730084",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13670451",
+      "run_accession": "SRR17500116",
+      "sample_accession": "SAMN23829285",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13674330",
+      "run_accession": "SRR17503995",
+      "sample_accession": "SAMN24731138",
+      "study_accession": "PRJNA766994"
+    },
+    {
+      "experiment_accession": "SRX13674350",
+      "run_accession": "SRR17504015",
+      "sample_accession": "SAMN24722892",
+      "study_accession": "PRJNA766994"
+    }
+  ],
+  "sha256": {
+    "data/sources/PRJNA766994_ena_runs.tsv": "bd388a5bd2c521868e0273948e6386f874467465c965da523c3dc6a835396233",
+    "data/sources/pmc9168996.xml": "6990a0b622883d20407efae0eac0e860a0316b46ab68addd99d2957ffdf2f206",
+    "data/sources/published_sra_runs.tsv": "892a424d1d3fa298809d2c71a5f51917310dc7c4e4bce592c06cea06b494e2c3"
+  },
+  "source_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "study": "PRJNA766994"
+}
