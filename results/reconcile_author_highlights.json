@@ -7,7 +7,7 @@
   },
   "limits": [
     "Author green spreadsheet formatting exactly encodes the article\u2019s concordant list; it is not independent reanalysis",
-    "Some green rows fail a literal displayed FC cutoff while both q values pass; infer only that original author criterion may include hidden/rounding or different threshold details, not a corrected effect estimate",
+    "Exact reciprocal lower cutoff 1/1.5 reproduces author green fills across these source tables; this does not prove the authors applied that exact code or clarify why printed legend says <=0.66",
     "Spreadsheets contain selected summary DETs, not full per-sample counts; no out-of-study benchmark or independent biological discovery"
   ],
   "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
@@ -19,6 +19,8 @@
   "supplement": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9168996/supplementaryFiles",
   "tables": {
     "S1": {
+      "exact_reciprocal_1_5_lower_bound_matches_green_rows": 1750,
+      "exact_reciprocal_1_5_rule_disagreements": 0,
       "green_concordant": 1750,
       "green_rows_not_matching_literal_both_q_and_FC": 17,
       "red_only_edgeR": 278,
@@ -26,6 +28,8 @@
       "yellow_only_DESeq2": 2650
     },
     "S2": {
+      "exact_reciprocal_1_5_lower_bound_matches_green_rows": 172,
+      "exact_reciprocal_1_5_rule_disagreements": 0,
       "green_concordant": 172,
       "green_rows_not_matching_literal_both_q_and_FC": 1,
       "red_only_edgeR": 52,
@@ -33,6 +37,8 @@
       "yellow_only_DESeq2": 786
     },
     "S3": {
+      "exact_reciprocal_1_5_lower_bound_matches_green_rows": 52,
+      "exact_reciprocal_1_5_rule_disagreements": 0,
       "green_concordant": 52,
       "green_rows_not_matching_literal_both_q_and_FC": 1,
       "red_only_edgeR": 21,
