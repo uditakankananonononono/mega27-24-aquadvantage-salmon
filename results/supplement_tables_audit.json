@@ -1,0 +1,90 @@
+{
+  "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Tables are already processed differential-expression results, not sample-level count matrix",
+    "Cannot re-estimate uncertainty or reproduce edgeR/DESeq2 from these summary files",
+    "All temperatures derive from one cohort; no independent validation or fair new benchmark",
+    "Do not infer product-level growth/environmental safety or biological design"
+  ],
+  "supplement_archive": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9168996/supplementaryFiles",
+  "tables": {
+    "S1": {
+      "DESeq2_q_below_0.05": 4415,
+      "both_q_and_fold_change": 1733,
+      "both_q_below_0.05": 1771,
+      "columns_without_sequence": [
+        "Transcript ID",
+        "Associated Gene",
+        "RefSeq mRNA Assession",
+        "Annotation",
+        "FPKM: 10.5 \u00b0C",
+        "FPKM: 16.5 \u00b0C",
+        "edgeR: FC",
+        "edgeR: p-value",
+        "edgeR: q-value",
+        "DESeq2: FC",
+        "DESeq2: p-value",
+        "DESeq2: q-value"
+      ],
+      "contrast": "10.5 vs 16.5 C",
+      "data_rows": 4678,
+      "edgeR_q_below_0.05": 2034,
+      "sha256": "36f6b9551e72e3c7709a33c4ca4f70ec003222983362899d154f6d59a5704351",
+      "unique_transcript_ids": 4678
+    },
+    "S2": {
+      "DESeq2_q_below_0.05": 960,
+      "both_q_and_fold_change": 171,
+      "both_q_below_0.05": 174,
+      "columns_without_sequence": [
+        "Transcript ID",
+        "Associated Gene",
+        "RefSeq mRNA Assession",
+        "Annotation",
+        "FPKM: 10.5 \u00b0C",
+        "FPKM: 13.5 \u00b0C",
+        "edgeR: FC",
+        "edgeR: p-value",
+        "edgeR: q-value",
+        "DESeq2: FC",
+        "DESeq2: p-value",
+        "DESeq2: q-value"
+      ],
+      "contrast": "10.5 vs 13.5 C",
+      "data_rows": 1010,
+      "edgeR_q_below_0.05": 224,
+      "sha256": "fda9cf638a63a21ea6b0bbedb8f1dbc040fd12c4fe13064f649c7e4b6fa71c98",
+      "unique_transcript_ids": 1010
+    },
+    "S3": {
+      "DESeq2_q_below_0.05": 518,
+      "both_q_and_fold_change": 51,
+      "both_q_below_0.05": 53,
+      "columns_without_sequence": [
+        "Transcript ID",
+        "Associated Gene",
+        "RefSeq mRNA Assession",
+        "Annotation",
+        "FPKM: 13.5 \u00b0C",
+        "FPKM: 16.5 \u00b0C",
+        "edgeR: FC",
+        "edgeR: p-value",
+        "edgeR: q-value",
+        "DESeq2: FC",
+        "DESeq2: p-value",
+        "DESeq2: q-value"
+      ],
+      "contrast": "13.5 vs 16.5 C",
+      "data_rows": 538,
+      "edgeR_q_below_0.05": 73,
+      "sha256": "bfefc327e1518708c425c7dfd4fe36711229641278e88acf3b5f68becc5380c8",
+      "unique_transcript_ids": 538
+    }
+  }
+}
