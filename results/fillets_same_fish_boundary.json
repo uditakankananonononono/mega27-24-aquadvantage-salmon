@@ -1,0 +1,28 @@
+{
+  "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "classification": {
+    "eligible_for_held_out_same_task_validation_from_this_paper_alone": false,
+    "figure8_correlation_external_test": false,
+    "figure8_pca_independent_cohort": false,
+    "fillet_and_liver_measured_on_same_fish": true
+  },
+  "finding": "The paper explicitly pairs fillet and liver measurements on the same fish; its Figure 8 correlations and PCA use these within-cohort measurements. They are useful source context but cannot substitute for a held-out independent cohort when evaluating a new predictor.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Prose-level provenance; no digitization of Figure 8 or reanalysis of individual fish",
+    "Within-fish paired measurements can be scientifically informative, but are not external validation",
+    "No performance, husbandry, product-safety, biological discovery or gate-credit claim"
+  ],
+  "marker_presence": {
+    "figure8_all_fish": true,
+    "figure8_pca": true,
+    "previous_same_experiment": true,
+    "same_fish": true
+  },
+  "source_sha256": "6990a0b622883d20407efae0eac0e860a0316b46ab68addd99d2957ffdf2f206"
+}
