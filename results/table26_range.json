@@ -1,0 +1,238 @@
+{
+  "checks": {
+    "mean_cell_count": 96,
+    "period3_minus_period2_deposition": {
+      "Ca": {
+        "10.5": -0.3,
+        "13.5": -0.09,
+        "16.5": -0.03
+      },
+      "DHA": {
+        "10.5": 0.28,
+        "13.5": 0.55,
+        "16.5": -1.13
+      },
+      "EPA": {
+        "10.5": 0.14,
+        "13.5": 0.18,
+        "16.5": -0.47
+      },
+      "His": {
+        "10.5": 0.26,
+        "13.5": 0.22,
+        "16.5": -0.56
+      },
+      "Lys": {
+        "10.5": 5.95,
+        "13.5": 2.0,
+        "16.5": 0.83
+      },
+      "Met": {
+        "10.5": 0.66,
+        "13.5": -1.81,
+        "16.5": -1.26
+      },
+      "P": {
+        "10.5": 0.73,
+        "13.5": -0.14,
+        "16.5": -0.73
+      },
+      "\u03a3 \u03c93": {
+        "10.5": 0.75,
+        "13.5": 1.33,
+        "16.5": -2.3
+      }
+    },
+    "retention_efficiencies_above_100": [
+      {
+        "nutrient": "DHA",
+        "period": "2",
+        "printed_re_pct": 111.32,
+        "temp_C": 16.5
+      }
+    ],
+    "row_count": 32
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Printed treatment means only; no tank-level replicates or intake denominators recovered, so retention efficiencies cannot be independently recomputed.",
+    "The caption reports n=3 and significance letters; no statistical reanalysis is made.",
+    "Any above-100% retention values are flagged as printed, not declared impossible; composition and intake denominators may differ.",
+    "Descriptive table replay only; no husbandry, feed, or product recommendation follows."
+  ],
+  "printed_thesis_pages": "60-62",
+  "sha256": "e47a52ae50a0aaa1b67a6897c433e31f5c1d81ec49611655ebae41fd90294885",
+  "source_file": "ignatz2019_thesis.pdf",
+  "source_url": "https://memorial.scholaris.ca/items/eef8b6b0-8b69-499a-a6a3-2bf0e1567743",
+  "table_2_6_means": {
+    "2": {
+      "Ca RE": [
+        3.46,
+        2.58,
+        2.94
+      ],
+      "Ca deposition": [
+        0.27,
+        0.16,
+        0.18
+      ],
+      "DHA RE": [
+        69.88,
+        59.35,
+        111.32
+      ],
+      "DHA deposition": [
+        1.34,
+        0.9,
+        1.61
+      ],
+      "EPA RE": [
+        18.65,
+        15.32,
+        26.27
+      ],
+      "EPA deposition": [
+        0.59,
+        0.39,
+        0.63
+      ],
+      "His RE": [
+        35.1,
+        30.03,
+        36.9
+      ],
+      "His deposition": [
+        1.34,
+        0.91,
+        1.07
+      ],
+      "Lys RE": [
+        8.3,
+        28.97,
+        35.01
+      ],
+      "Lys deposition": [
+        0.69,
+        1.92,
+        2.19
+      ],
+      "Met RE": [
+        14.77,
+        82.96,
+        59.62
+      ],
+      "Met deposition": [
+        0.31,
+        1.4,
+        0.94
+      ],
+      "P RE": [
+        32.65,
+        40.0,
+        45.23
+      ],
+      "P deposition": [
+        1.79,
+        1.74,
+        1.88
+      ],
+      "\u03a3 \u03c93 RE": [
+        33.41,
+        27.06,
+        45.99
+      ],
+      "\u03a3 \u03c93 deposition": [
+        3.31,
+        2.12,
+        3.44
+      ]
+    },
+    "3": {
+      "Ca RE": [
+        -0.29,
+        0.77,
+        1.74
+      ],
+      "Ca deposition": [
+        -0.03,
+        0.07,
+        0.15
+      ],
+      "DHA RE": [
+        62.76,
+        63.01,
+        23.54
+      ],
+      "DHA deposition": [
+        1.62,
+        1.45,
+        0.48
+      ],
+      "EPA RE": [
+        17.13,
+        14.85,
+        4.85
+      ],
+      "EPA deposition": [
+        0.73,
+        0.57,
+        0.16
+      ],
+      "His RE": [
+        30.95,
+        24.64,
+        12.42
+      ],
+      "His deposition": [
+        1.6,
+        1.13,
+        0.51
+      ],
+      "Lys RE": [
+        59.22,
+        39.1,
+        33.38
+      ],
+      "Lys deposition": [
+        6.64,
+        3.92,
+        3.02
+      ],
+      "Met RE": [
+        33.7,
+        -15.98,
+        -14.01
+      ],
+      "Met deposition": [
+        0.97,
+        -0.41,
+        -0.32
+      ],
+      "P RE": [
+        34.13,
+        24.29,
+        19.49
+      ],
+      "P deposition": [
+        2.52,
+        1.6,
+        1.15
+      ],
+      "\u03a3 \u03c93 RE": [
+        30.47,
+        28.92,
+        10.81
+      ],
+      "\u03a3 \u03c93 deposition": [
+        4.06,
+        3.45,
+        1.14
+      ]
+    }
+  }
+}
