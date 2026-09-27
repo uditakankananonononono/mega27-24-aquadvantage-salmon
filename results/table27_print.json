@@ -1,0 +1,91 @@
+{
+  "fillet_yield_absolute_percentage_points": {
+    "10.5": 7.16,
+    "13.5": 4.48
+  },
+  "fillet_yield_relative_to_16_5_pct": {
+    "10.5": 13.74,
+    "13.5": 8.6
+  },
+  "finding": "The nearby prose says fillet yields were higher by 7% and 4%. The printed means differ by 7.16 and 4.48 percentage points, respectively, whereas the relative increases over the 16.5 C mean are 13.74% and 8.60%. The prose is consistent with roughly rounded absolute percentage-point differences, not relative percent increases; its exact rounding convention is not specified.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Table means, SEM, n and letters transcribed only; no fish-level measurements or statistical reanalysis",
+    "The descriptive percentage gap is not proof of an author error or a treatment recommendation",
+    "No externally valid commercial yield or product comparison is established"
+  ],
+  "printed_prose_claim_pct": {
+    "10.5": 7,
+    "13.5": 4
+  },
+  "printed_thesis_page": 63,
+  "source_sha256": "e47a52ae50a0aaa1b67a6897c433e31f5c1d81ec49611655ebae41fd90294885",
+  "source_url": "https://memorial.scholaris.ca/items/eef8b6b0-8b69-499a-a6a3-2bf0e1567743",
+  "table_2_7": {
+    "astaxanthin_ug_per_g": {
+      "10.5": {
+        "letter": null,
+        "mean": 4.17,
+        "n": 3,
+        "sem": 0.33
+      },
+      "13.5": {
+        "letter": null,
+        "mean": 3.83,
+        "n": 3,
+        "sem": 0.35
+      },
+      "16.5": {
+        "letter": null,
+        "mean": 4.1,
+        "n": 3,
+        "sem": 0.21
+      }
+    },
+    "fillet_yield_pct": {
+      "10.5": {
+        "letter": "b",
+        "mean": 59.27,
+        "n": 24,
+        "sem": 0.88
+      },
+      "13.5": {
+        "letter": "b",
+        "mean": 56.59,
+        "n": 24,
+        "sem": 0.93
+      },
+      "16.5": {
+        "letter": "a",
+        "mean": 52.11,
+        "n": 24,
+        "sem": 0.99
+      }
+    },
+    "salmo_fan_score": {
+      "10.5": {
+        "letter": "ab",
+        "mean": 28.0,
+        "n": 12,
+        "sem": 0.17
+      },
+      "13.5": {
+        "letter": "b",
+        "mean": 28.35,
+        "n": 12,
+        "sem": 0.12
+      },
+      "16.5": {
+        "letter": "a",
+        "mean": 27.44,
+        "n": 12,
+        "sem": 0.29
+      }
+    }
+  }
+}
