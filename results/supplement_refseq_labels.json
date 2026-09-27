@@ -1,0 +1,176 @@
+{
+  "finding": "These author-processed supplementary tables contain transcript IDs and RefSeq mRNA labels. A RefSeq label can map to multiple transcript IDs in the selected tables, so RefSeq labels are not a one-to-one denominator for counting independent transcript observations.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Printed labels only; no RefSeq record individually fetched or annotation independently verified",
+    "The same transcript can appear across multiple contrast tables and is deduplicated before counting",
+    "No expression, genotype, product or biological-discovery inference"
+  ],
+  "max_transcript_ids_per_refseq_label": 12,
+  "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "refseq_labels_mapping_multiple_transcript_ids": 614,
+  "supplement_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9168996/supplementaryFiles",
+  "tables": {
+    "S1": {
+      "missing_refseq_labels": 1116,
+      "row_count": 4678,
+      "sha256": "36f6b9551e72e3c7709a33c4ca4f70ec003222983362899d154f6d59a5704351"
+    },
+    "S2": {
+      "missing_refseq_labels": 236,
+      "row_count": 1010,
+      "sha256": "fda9cf638a63a21ea6b0bbedb8f1dbc040fd12c4fe13064f649c7e4b6fa71c98"
+    },
+    "S3": {
+      "missing_refseq_labels": 108,
+      "row_count": 538,
+      "sha256": "bfefc327e1518708c425c7dfd4fe36711229641278e88acf3b5f68becc5380c8"
+    }
+  },
+  "top_reused_labels": [
+    {
+      "refseq_label": "nm_022172",
+      "transcript_count": 12,
+      "transcript_ids": [
+        "TCONS_00004285",
+        "TCONS_00004289",
+        "TCONS_00004418",
+        "TCONS_00156791",
+        "TCONS_00156800",
+        "TCONS_00212497",
+        "TCONS_00214350",
+        "TCONS_00216108",
+        "TCONS_00216862",
+        "TCONS_00217558",
+        "TCONS_00217625",
+        "TCONS_00221569"
+      ]
+    },
+    {
+      "refseq_label": "nm_022172.2",
+      "transcript_count": 9,
+      "transcript_ids": [
+        "TCONS_00004284",
+        "TCONS_00004285",
+        "TCONS_00004289",
+        "TCONS_00004418",
+        "TCONS_00156791",
+        "TCONS_00217555",
+        "TCONS_00217558",
+        "TCONS_00217624",
+        "TCONS_00217625"
+      ]
+    },
+    {
+      "refseq_label": "xm_006722637.2",
+      "transcript_count": 9,
+      "transcript_ids": [
+        "TCONS_00085133",
+        "TCONS_00085137",
+        "TCONS_00085143",
+        "TCONS_00119323",
+        "TCONS_00119328",
+        "TCONS_00119330",
+        "TCONS_00137472",
+        "TCONS_00137481",
+        "TCONS_00186389"
+      ]
+    },
+    {
+      "refseq_label": "nm_001417",
+      "transcript_count": 8,
+      "transcript_ids": [
+        "TCONS_00104598",
+        "TCONS_00104600",
+        "TCONS_00178244",
+        "TCONS_00178248",
+        "TCONS_00178249",
+        "TCONS_00178251",
+        "TCONS_00178253",
+        "TCONS_00178255"
+      ]
+    },
+    {
+      "refseq_label": "nm_001961",
+      "transcript_count": 8,
+      "transcript_ids": [
+        "TCONS_00079739",
+        "TCONS_00079742",
+        "TCONS_00079744",
+        "TCONS_00079746",
+        "TCONS_00119292",
+        "TCONS_00185413",
+        "TCONS_00185416",
+        "TCONS_00185417"
+      ]
+    },
+    {
+      "refseq_label": "nm_005313.4",
+      "transcript_count": 7,
+      "transcript_ids": [
+        "TCONS_00087077",
+        "TCONS_00087080",
+        "TCONS_00087081",
+        "TCONS_00087082",
+        "TCONS_00087083",
+        "TCONS_00183549",
+        "TCONS_00202975"
+      ]
+    },
+    {
+      "refseq_label": "nm_017460",
+      "transcript_count": 7,
+      "transcript_ids": [
+        "TCONS_00018105",
+        "TCONS_00215335",
+        "TCONS_00215338",
+        "TCONS_00215339",
+        "TCONS_00215340",
+        "TCONS_00220747",
+        "TCONS_00232596"
+      ]
+    },
+    {
+      "refseq_label": "nm_000184.2",
+      "transcript_count": 6,
+      "transcript_ids": [
+        "TCONS_00031383",
+        "TCONS_00031386",
+        "TCONS_00031387",
+        "TCONS_00051848",
+        "TCONS_00225434",
+        "TCONS_00225435"
+      ]
+    },
+    {
+      "refseq_label": "nm_001193417.2",
+      "transcript_count": 6,
+      "transcript_ids": [
+        "TCONS_00148277",
+        "TCONS_00174668",
+        "TCONS_00174670",
+        "TCONS_00174672",
+        "TCONS_00174674",
+        "TCONS_00192660"
+      ]
+    },
+    {
+      "refseq_label": "nm_001417.6",
+      "transcript_count": 6,
+      "transcript_ids": [
+        "TCONS_00104600",
+        "TCONS_00178245",
+        "TCONS_00178246",
+        "TCONS_00178247",
+        "TCONS_00178248",
+        "TCONS_00178255"
+      ]
+    }
+  ],
+  "unique_refseq_label_count": 3436
+}
