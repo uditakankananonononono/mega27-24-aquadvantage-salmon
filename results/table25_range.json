@@ -1,0 +1,188 @@
+{
+  "checks": {
+    "deposition_by_growth_period": {
+      "Ash": {
+        "10.5": [
+          8.02,
+          10.98,
+          12.31
+        ],
+        "13.5": [
+          5.52,
+          7.48,
+          11.33
+        ],
+        "16.5": [
+          6.14,
+          5.07,
+          9.28
+        ]
+      },
+      "Lipid": {
+        "10.5": [
+          50.8,
+          87.35,
+          121.54
+        ],
+        "13.5": [
+          44.89,
+          58.13,
+          109.37
+        ],
+        "16.5": [
+          33.7,
+          58.87,
+          98.04
+        ]
+      },
+      "Protein": {
+        "10.5": [
+          55.95,
+          90.01,
+          124.65
+        ],
+        "13.5": [
+          51.27,
+          57.38,
+          112.7
+        ],
+        "16.5": [
+          47.15,
+          51.0,
+          85.14
+        ]
+      }
+    },
+    "mean_cell_count": 54,
+    "protein_and_lipid_deposition_increase_at_each_temperature": true,
+    "retention_efficiencies_above_100": [
+      {
+        "nutrient": "Lipid",
+        "period": "1",
+        "printed_re_pct": 158.12,
+        "temp_C": 10.5
+      },
+      {
+        "nutrient": "Lipid",
+        "period": "1",
+        "printed_re_pct": 149.76,
+        "temp_C": 13.5
+      }
+    ],
+    "row_count": 18
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Printed treatment means only; no tank-level replicates or feed nutrient intake recovered, so retention efficiencies cannot be independently recomputed.",
+    "The Table 2-5 caption reports n=3 and significance letters; no statistical reanalysis is made.",
+    "The printed above-100% lipid retention for period 1 at two temperatures is flagged as reported, not declared impossible or a defect; composition and intake denominators may differ.",
+    "No growth, feed, husbandry or nutritional recommendation follows from this descriptive table replay."
+  ],
+  "printed_thesis_pages": "59-60",
+  "sha256": "e47a52ae50a0aaa1b67a6897c433e31f5c1d81ec49611655ebae41fd90294885",
+  "source_file": "ignatz2019_thesis.pdf",
+  "source_url": "https://memorial.scholaris.ca/items/eef8b6b0-8b69-499a-a6a3-2bf0e1567743",
+  "table_2_5_means": {
+    "1": {
+      "Ash RE": [
+        55.33,
+        40.6,
+        37.22
+      ],
+      "Ash deposition": [
+        8.02,
+        5.52,
+        6.14
+      ],
+      "Lipid RE": [
+        158.12,
+        149.76,
+        91.63
+      ],
+      "Lipid deposition": [
+        50.8,
+        44.89,
+        33.7
+      ],
+      "Protein RE": [
+        56.69,
+        55.46,
+        41.59
+      ],
+      "Protein deposition": [
+        55.95,
+        51.27,
+        47.15
+      ]
+    },
+    "2": {
+      "Ash RE": [
+        37.6,
+        32.53,
+        22.9
+      ],
+      "Ash deposition": [
+        10.98,
+        7.48,
+        5.07
+      ],
+      "Lipid RE": [
+        80.15,
+        67.44,
+        71.32
+      ],
+      "Lipid deposition": [
+        87.35,
+        58.13,
+        58.87
+      ],
+      "Protein RE": [
+        44.68,
+        36.06,
+        33.48
+      ],
+      "Protein deposition": [
+        90.01,
+        57.38,
+        51.0
+      ]
+    },
+    "3": {
+      "Ash RE": [
+        31.36,
+        32.26,
+        29.52
+      ],
+      "Ash deposition": [
+        12.31,
+        11.33,
+        9.28
+      ],
+      "Lipid RE": [
+        82.88,
+        83.39,
+        83.38
+      ],
+      "Lipid deposition": [
+        121.54,
+        109.37,
+        98.04
+      ],
+      "Protein RE": [
+        46.04,
+        46.55,
+        39.19
+      ],
+      "Protein deposition": [
+        124.65,
+        112.7,
+        85.14
+      ]
+    }
+  }
+}
