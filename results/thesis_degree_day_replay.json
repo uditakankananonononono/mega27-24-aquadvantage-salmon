@@ -1,0 +1,168 @@
+{
+  "checks": {
+    "dash_pattern_consistent": {
+      "10.5": {
+        "days_over_calendar_month": 15.6,
+        "days_to_1500g": 475,
+        "months_printed": 16
+      },
+      "13.5": {
+        "days_over_calendar_month": 13.73,
+        "days_to_1500g": 418,
+        "months_printed": 14
+      },
+      "16.5": {
+        "days_over_calendar_month": 12.55,
+        "days_to_1500g": 382,
+        "months_printed": 13
+      }
+    },
+    "month1_replay": {
+      "10.5": {
+        "implied_month1_span_days": 45.5,
+        "predicted_cdd_from_methods_timeline": 519.25,
+        "printed_cdd": 514,
+        "residual_cdd": -5.25,
+        "within_tolerance_band": true
+      },
+      "13.5": {
+        "implied_month1_span_days": 46.02,
+        "predicted_cdd_from_methods_timeline": 613.75,
+        "printed_cdd": 614,
+        "residual_cdd": 0.25,
+        "within_tolerance_band": true
+      },
+      "16.5": {
+        "implied_month1_span_days": 46.59,
+        "predicted_cdd_from_methods_timeline": 708.25,
+        "printed_cdd": 718,
+        "residual_cdd": 9.75,
+        "within_tolerance_band": true
+      }
+    },
+    "month_cadence": {
+      "10.5": {
+        "calendar_month_constant_setpoint_band": [
+          29.0,
+          31.9
+        ],
+        "monthly_increments_day_equivalents": [
+          30.48,
+          31.05,
+          29.24,
+          31.43,
+          34.38,
+          26.29,
+          28.76,
+          35.24,
+          26.76,
+          37.24,
+          27.33,
+          27.43,
+          33.9,
+          28.95,
+          15.43
+        ],
+        "nonterminal_max": 37.24,
+        "nonterminal_mean": 30.61,
+        "nonterminal_min": 26.29,
+        "nonterminal_months": 14,
+        "nonterminal_months_outside_band": 10
+      },
+      "13.5": {
+        "calendar_month_constant_setpoint_band": [
+          29.3,
+          31.6
+        ],
+        "monthly_increments_day_equivalents": [
+          29.41,
+          29.93,
+          28.67,
+          31.41,
+          34.81,
+          21.56,
+          34.59,
+          35.19,
+          28.52,
+          35.41,
+          27.33,
+          29.33,
+          20.81
+        ],
+        "nonterminal_max": 35.41,
+        "nonterminal_mean": 30.51,
+        "nonterminal_min": 21.56,
+        "nonterminal_months": 12,
+        "nonterminal_months_outside_band": 8
+      },
+      "16.5": {
+        "calendar_month_constant_setpoint_band": [
+          29.5,
+          31.4
+        ],
+        "monthly_increments_day_equivalents": [
+          29.94,
+          30.73,
+          27.88,
+          28.3,
+          32.73,
+          26.55,
+          27.52,
+          34.79,
+          26.85,
+          35.27,
+          26.73,
+          27.09
+        ],
+        "nonterminal_max": 35.27,
+        "nonterminal_mean": 29.75,
+        "nonterminal_min": 26.55,
+        "nonterminal_months": 11,
+        "nonterminal_months_outside_band": 9
+      }
+    },
+    "terminal_replay": {
+      "10.5": {
+        "predicted_final_cdd": 5181.25,
+        "printed_days_to_1500g": 475,
+        "printed_final_cdd": 5175,
+        "residual_cdd": -6.25,
+        "tolerance_band_cdd": 237.5,
+        "within_tolerance_band": true
+      },
+      "13.5": {
+        "predicted_final_cdd": 5838.25,
+        "printed_days_to_1500g": 418,
+        "printed_final_cdd": 5838,
+        "residual_cdd": -0.25,
+        "tolerance_band_cdd": 209.0,
+        "within_tolerance_band": true
+      },
+      "16.5": {
+        "predicted_final_cdd": 6499.75,
+        "printed_days_to_1500g": 382,
+        "printed_final_cdd": 6565,
+        "residual_cdd": 65.25,
+        "tolerance_band_cdd": 191.0,
+        "within_tolerance_band": true
+      }
+    },
+    "tgc_values_replayable_from_printed_inputs": false
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Arithmetic replay of printed numbers only; no growth biology, line, or product-level inference",
+    "Monthly mean weights are shown only graphically (Figure 2-1), so the printed TGC values cannot be replayed from printed numeric inputs; the document alone cannot verify them",
+    "Month-1 and terminal replays assume the printed methods timeline (14-day 13 C feed introduction, 24-h ramp, then setpoint); the day-count anchor for days-to-1500 g is not explicitly printed and is inferred from the close numeric match",
+    "Individual month increments behave like sampling intervals, not constant-temperature calendar months; daily temperature logs are not printed, so per-month calendar consistency cannot be resolved from the document",
+    "Residuals within the printed +-0.5 C tolerance do not prove the underlying logs; they show the printed aggregates are mutually consistent"
+  ],
+  "sha256": "e47a52ae50a0aaa1b67a6897c433e31f5c1d81ec49611655ebae41fd90294885",
+  "source_file": "ignatz2019_thesis.pdf",
+  "source_url": "https://memorial.scholaris.ca/items/eef8b6b0-8b69-499a-a6a3-2bf0e1567743"
+}
