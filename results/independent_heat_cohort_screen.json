@@ -1,0 +1,43 @@
+{
+  "comparison": {
+    "2014": "Atlantic salmon 19\u00b0C chronic heat and low oxygen, pooled/SSH and normalized cDNA libraries; authors say not quantitative comparisons",
+    "2022": "female triploid growth-hormone-transgenic Atlantic salmon, 10.5/13.5/16.5\u00b0C, 18 hepatic RNA-seq libraries"
+  },
+  "eligibility": {
+    "eligible_as_held_out_same_task_cohort": false,
+    "independent_population": true,
+    "matching_temperature_exposure": false,
+    "per_sample_quantitative_expression_comparable": false,
+    "same_organism": true,
+    "same_transgenic_cohort_or_product": false
+  },
+  "evidence": {
+    "study_2014_title": {
+      "sha256": "a99d95a8273a1cd8d094e3a477bdcd4d38a81d665eb587649c06fcaabbb75389",
+      "title": "Transcriptional responses to temperature and low oxygen stress in Atlantic salmon",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4046827/"
+    },
+    "study_2022_title": {
+      "sha256": "6990a0b622883d20407efae0eac0e860a0316b46ab68addd99d2957ffdf2f206",
+      "title": "RNA-Seq Analysis of the Growth Hormone Transgenic Female Triploid Atlantic Salmon",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/"
+    }
+  },
+  "gate_credit": {
+    "applied_external_services": 0,
+    "audited_derivations": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "substantive_paper_pages": 0
+  },
+  "limits": [
+    "Different population, treatment levels, library construction and measurement estimands; do not treat orthologous themes as transcript-level cross-validation.",
+    "The 2014 study is a useful context/negative comparator candidate, not an independent quantitative held-out validation set for the 2022 transgenic temperature data.",
+    "No raw expression cohort, efficacy, environmental safety, accession gate or discovery is established by this screen."
+  ],
+  "source_passages": {
+    "heat_setting": "Warmer seawater as a result of climate change may impose environmental challenges for Atlantic salmon aquaculture in its southernmost geographic range. Seawater temperatures above optimal level for growth may be reached in the warmest summer weeks. Caged fish can experience temperature and low oxygen saturation stress during such episodes, raising fish welfare and productivity concerns. In this work we compare the transcriptional responses in Atlantic salmon exposed to chronic high temperature (19\u00b0C) and low oxygen saturation (4-5\u00a0mg/L) stress.",
+    "nonquantitative": "Both applied cDNA library construction methods represent a semi-quantitative measure of transcript abundance. SSH cDNA libraries are prone to false positives, whereas normalized cDNA libraries, by removing high-abundant rRNA transcripts, increase sequence coverage depth and transcript diversity across non-rRNA populations [ 58 ]. For this reason we have not attempted to compare the libraries quantitatively. By using pooled samples, and two different library construction methods, the RNA-seq data presented here should be considered indicative rather than exact quantitative measures of molecular effects of treatments that mitigate effects at the physiological level, i.e. reduced growth. As expected, fewer large contigs, contigs of at least 500\u00a0bp, were obtained by using SSH cDNA libraries than by using normalized cDNA libraries. With SSH technology, about 2000 large contigs were obtained from the heat stress experiment, whereas about 8000 large contigs were obtained from the normalized libraries. More equal numbers were obtained from the four cDNA libraries by selecting contigs consisting of more than 50 reads for the functional analyses. The selected strategy may have created a bias toward higher expressed genes, but represents a trade-off between confounding the pathway analysis by using too many input genes and lost strength by not including enough low-expressed genes.",
+    "pooled_libraries": "Both applied cDNA library construction methods represent a semi-quantitative measure of transcript abundance. SSH cDNA libraries are prone to false positives, whereas normalized cDNA libraries, by removing high-abundant rRNA transcripts, increase sequence coverage depth and transcript diversity across non-rRNA populations [ 58 ]. For this reason we have not attempted to compare the libraries quantitatively. By using pooled samples, and two different library construction methods, the RNA-seq data presented here should be considered indicative rather than exact quantitative measures of molecular effects of treatments that mitigate effects at the physiological level, i.e. reduced growth. As expected, fewer large contigs, contigs of at least 500\u00a0bp, were obtained by using SSH cDNA libraries than by using normalized cDNA libraries. With SSH technology, about 2000 large contigs were obtained from the heat stress experiment, whereas about 8000 large contigs were obtained from the normalized libraries. More equal numbers were obtained from the four cDNA libraries by selecting contigs consisting of more than 50 reads for the functional analyses. The selected strategy may have created a bias toward higher expressed genes, but represents a trade-off between confounding the pathway analysis by using too many input genes and lost strength by not including enough low-expressed genes.",
+    "transgenic_target": "This study examined the impact of rearing temperature (10.5, 13.5 or 16.5\u00b0C) on the hepatic transcriptome of AquAdvantage Salmon (growth hormone transgenic female triploid Atlantic salmon) at an average weight of 800\u00a0g. Six stranded PE libraries were Illumina-sequenced from each temperature group, resulting in an average of over 100\u00a0M raw reads per individual fish. RNA-sequencing (RNA-seq) results showed the greatest difference in the number of differentially expressed transcripts (1750 DETs), as revealed by both DESeq2 and edgeR ( q < 0.05; fold-change > |1.5|), was between the 10.5 and 16.5\u00b0C temperature groups. In contrast, 172 and 52 DETs were found in the 10.5 vs. 13.5\u00b0C and the 13.5 vs. 16.5\u00b0C comparisons, respectively. Considering the DETs between the 10.5 and 16.5\u00b0C groups, 282 enriched gene ontology (GO) terms were identified ( q < 0.05), including \u201cresponse to stress\u201d, \u201cimmune system process\u201d, \u201clipid metabolic process\u201d, \u201coxidation-reduction process\u201d, and \u201ccholesterol metabolic process\u201d, suggesting elevated temperature elicited broad effects on multiple biological systems. Pathway analysis using ClueGO showed additional impacts on amino acid and lipid metabolism. There was a significant positive correlation between RNA-seq and real-time quantitative polymerase chain reaction (RT-qPCR) results for 8 of 9 metabolic-related transcripts tested. RT-qPCR results also correlated to changes in fillet tissue composition previously reported in these salmon (e.g., methionine and lysine concentrations positively correlated with hsp90ab1 transcript expression), suggesting that rearing temperature played a significant role in mediating metabolic/biosynthetic pathways of AquAdvantage Salmon. Many transcripts related to lipid/fatty acid metabolism (e.g., elovl2 , fabpi , hacd2 , mgll , s27a2 , thrsp ) were downregulated at 16.5\u00b0C compared to both other temperature groups. Additionally, enrichment of stress-, apoptosis- and catabolism-relevant GO terms at 16.5\u00b0C suggests that this temperature may not be ideal for commercial production when using freshwater recirculating aquaculture systems (RAS). This study relates phenotypic responses to transcript-specific findings and therefore aids in the determination of an optimal rearing temperature for AquAdvantage Salmon. With approval to grow and sell AquAdvantage Salmon in the United States and Canada, the novel insights provided by this research can help industry expansion by promoting optimal physiological performance and health."
+  }
+}
