@@ -1,0 +1,11 @@
+# Thesis Tables 2-2 and 2-3: cross-equation arithmetic audit
+
+A printed-number replay of the [2019 Memorial University thesis](https://memorial.scholaris.ca/items/eef8b6b0-8b69-499a-a6a3-2bf0e1567743) (archived PDF, SHA-256 pinned in `results/growth_composition_table_audit.json`), applying the thesis's own equations to its printed means.
+
+**Table 2-2 (feed and growth indicators at 800 and 1500 g).** Equation 1 rearranged gives implied dry-matter feed per fish: printed FCR x interval gain (300 g for the 500-800 g interval, 700 g for 800-1500 g), yielding 243-282 g and 602-707 g across the three rearing temperatures. The TGC definition rearranged gives implied interval days of 55.5 / 68.8 / 59.6 days (500-800 g) and 98.6 / 86.2 / 91.7 days (800-1500 g) at 10.5 / 13.5 / 16.5 C. Dividing implied feed by the printed FI column gives a second day estimate - but **the FI unit is not printed in the table caption or the methods equations section**, so this second estimate is only valid if FI is dry-matter g/fish/day. Under that assumption the two day estimates agree within 1.6 days at 10.5 C in both intervals, but diverge by 10.9 days at 13.5 C (500-800 g) and by 5.0 days at 16.5 C (800-1500 g). With the FI unit unprinted, this is an unresolved consistency question, not a demonstrated error.
+
+**Not replayable.** Condition factor k, HSI and VSI cannot be checked from the document: fork lengths and liver/viscera weights never appear as printed numbers. FCR cannot be replayed directly either, because interval day counts are not printed.
+
+**Table 2-3 (whole-body proximate composition).** A mass-balance screen on all 12 weight-by-temperature cells: printed protein + lipid + ash never exceeds printed dry matter. The residual other-dry-matter fraction ranges from 0.58 to 1.48 percentage points (n = 10-13 fish per cell as printed). Implied moisture (100 - DM) spans 61.05-67.28%. All printed cells pass; the residual is other dry matter, not an error term.
+
+The script transcribes both printed tables, replays the arithmetic, pins the PDF hash, and is covered by a hermetic test. This is source-integrity accounting on published numbers: no growth, husbandry, or product-level inference, no independent dataset, no comparator win, no gate credit.

@@ -1,0 +1,246 @@
+{
+  "checks": {
+    "fi_units_printed_in_caption_or_methods": false,
+    "k_hsi_vsi_replayable_from_printed_inputs": false,
+    "table_2_2_cross_equation": {
+      "1500": {
+        "cube_root_delta_times_1000": 2163.9648,
+        "interval_g": [
+          800,
+          1500
+        ],
+        "per_temperature": {
+          "10.5": {
+            "day_estimate_residual": -1.56,
+            "fcr_implied_days_if_FI_g_per_fish_day": 100.17,
+            "implied_feed_per_fish_g": 602.0,
+            "printed_FCR": 0.86,
+            "printed_FI": 6.01,
+            "printed_TGC": 2.09,
+            "tgc_implied_days": 98.61
+          },
+          "13.5": {
+            "day_estimate_residual": -2.6,
+            "fcr_implied_days_if_FI_g_per_fish_day": 88.78,
+            "implied_feed_per_fish_g": 609.0,
+            "printed_FCR": 0.87,
+            "printed_FI": 6.86,
+            "printed_TGC": 1.86,
+            "tgc_implied_days": 86.18
+          },
+          "16.5": {
+            "day_estimate_residual": -5.0,
+            "fcr_implied_days_if_FI_g_per_fish_day": 96.72,
+            "implied_feed_per_fish_g": 707.0,
+            "printed_FCR": 1.01,
+            "printed_FI": 7.31,
+            "printed_TGC": 1.43,
+            "tgc_implied_days": 91.71
+          }
+        }
+      },
+      "800": {
+        "cube_root_delta_times_1000": 1346.1724,
+        "interval_g": [
+          500,
+          800
+        ],
+        "per_temperature": {
+          "10.5": {
+            "day_estimate_residual": 1.14,
+            "fcr_implied_days_if_FI_g_per_fish_day": 54.36,
+            "implied_feed_per_fish_g": 243.0,
+            "printed_FCR": 0.81,
+            "printed_FI": 4.47,
+            "printed_TGC": 2.31,
+            "tgc_implied_days": 55.5
+          },
+          "13.5": {
+            "day_estimate_residual": 10.9,
+            "fcr_implied_days_if_FI_g_per_fish_day": 57.87,
+            "implied_feed_per_fish_g": 261.0,
+            "printed_FCR": 0.87,
+            "printed_FI": 4.51,
+            "printed_TGC": 1.45,
+            "tgc_implied_days": 68.77
+          },
+          "16.5": {
+            "day_estimate_residual": 4.58,
+            "fcr_implied_days_if_FI_g_per_fish_day": 54.97,
+            "implied_feed_per_fish_g": 282.0,
+            "printed_FCR": 0.94,
+            "printed_FI": 5.13,
+            "printed_TGC": 1.37,
+            "tgc_implied_days": 59.55
+          }
+        }
+      }
+    },
+    "table_2_2_day_estimates_agree_within_2d_only_at_10_5C": true,
+    "table_2_2_max_abs_day_residual_other_temps": 10.9,
+    "table_2_3_all_cells_components_within_dry_matter": true,
+    "table_2_3_component_sums": {
+      "1500": {
+        "10.5": {
+          "component_sum": 36.12,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 63.3,
+          "n": 12,
+          "other_dry_matter_fraction": 0.58,
+          "printed_DM": 36.7,
+          "printed_ash": 2.01,
+          "printed_lipid": 16.22,
+          "printed_protein": 17.89
+        },
+        "13.5": {
+          "component_sum": 36.93,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 61.98,
+          "n": 12,
+          "other_dry_matter_fraction": 1.09,
+          "printed_DM": 38.02,
+          "printed_ash": 2.01,
+          "printed_lipid": 16.81,
+          "printed_protein": 18.11
+        },
+        "16.5": {
+          "component_sum": 38.21,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 61.05,
+          "n": 12,
+          "other_dry_matter_fraction": 0.74,
+          "printed_DM": 38.95,
+          "printed_ash": 2.01,
+          "printed_lipid": 18.22,
+          "printed_protein": 17.98
+        }
+      },
+      "300": {
+        "10.5": {
+          "component_sum": 31.24,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 67.28,
+          "n": 12,
+          "other_dry_matter_fraction": 1.48,
+          "printed_DM": 32.72,
+          "printed_ash": 1.99,
+          "printed_lipid": 11.77,
+          "printed_protein": 17.48
+        },
+        "13.5": {
+          "component_sum": 32.92,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 65.85,
+          "n": 12,
+          "other_dry_matter_fraction": 1.23,
+          "printed_DM": 34.15,
+          "printed_ash": 2.07,
+          "printed_lipid": 13.43,
+          "printed_protein": 17.42
+        },
+        "16.5": {
+          "component_sum": 33.84,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 65.1,
+          "n": 12,
+          "other_dry_matter_fraction": 1.06,
+          "printed_DM": 34.9,
+          "printed_ash": 2.02,
+          "printed_lipid": 14.33,
+          "printed_protein": 17.49
+        }
+      },
+      "500": {
+        "10.5": {
+          "component_sum": 32.34,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 66.49,
+          "n": 12,
+          "other_dry_matter_fraction": 1.17,
+          "printed_DM": 33.51,
+          "printed_ash": 2.14,
+          "printed_lipid": 13.02,
+          "printed_protein": 17.18
+        },
+        "13.5": {
+          "component_sum": 34.32,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 64.64,
+          "n": 12,
+          "other_dry_matter_fraction": 1.04,
+          "printed_DM": 35.36,
+          "printed_ash": 2.03,
+          "printed_lipid": 14.51,
+          "printed_protein": 17.78
+        },
+        "16.5": {
+          "component_sum": 34.79,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 64.14,
+          "n": 12,
+          "other_dry_matter_fraction": 1.07,
+          "printed_DM": 35.86,
+          "printed_ash": 2.22,
+          "printed_lipid": 14.26,
+          "printed_protein": 18.31
+        }
+      },
+      "800": {
+        "10.5": {
+          "component_sum": 35.1,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 64.26,
+          "n": 12,
+          "other_dry_matter_fraction": 0.64,
+          "printed_DM": 35.74,
+          "printed_ash": 2.2,
+          "printed_lipid": 15.11,
+          "printed_protein": 17.79
+        },
+        "13.5": {
+          "component_sum": 35.37,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 63.73,
+          "n": 10,
+          "other_dry_matter_fraction": 0.9,
+          "printed_DM": 36.27,
+          "printed_ash": 2.1,
+          "printed_lipid": 15.68,
+          "printed_protein": 17.59
+        },
+        "16.5": {
+          "component_sum": 35.39,
+          "components_within_dry_matter": true,
+          "implied_moisture_pct": 63.9,
+          "n": 13,
+          "other_dry_matter_fraction": 0.71,
+          "printed_DM": 36.1,
+          "printed_ash": 2.01,
+          "printed_lipid": 15.78,
+          "printed_protein": 17.6
+        }
+      }
+    },
+    "table_2_3_other_dry_matter_range_pct": [
+      0.58,
+      1.48
+    ]
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Arithmetic replay of printed table means only; no growth, husbandry, or product-level inference",
+    "FI units are not printed in the Table 2-2 caption or the methods equations section; the day estimates derived from FCR are valid only if FI is dry-matter g/fish/day, so the day-estimate residuals at 13.5 and 16.5 C are an unresolved consistency question, not a demonstrated error",
+    "TGC-implied days use the cube-root TGC definition with the printed treatment setpoint as the interval temperature; daily logs are not printed",
+    "k, HSI and VSI are not replayable: fork lengths and liver/viscera weights appear nowhere as printed numbers",
+    "Table 2-3 check is a mass-balance screen (protein+lipid+ash must not exceed printed dry matter); the residual is other dry matter, not an error term",
+    "Standard-error columns and significance letters are transcribed context, not replayed statistics"
+  ],
+  "sha256": "e47a52ae50a0aaa1b67a6897c433e31f5c1d81ec49611655ebae41fd90294885",
+  "source_file": "ignatz2019_thesis.pdf",
+  "source_url": "https://memorial.scholaris.ca/items/eef8b6b0-8b69-499a-a6a3-2bf0e1567743"
+}
