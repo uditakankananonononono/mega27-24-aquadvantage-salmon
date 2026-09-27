@@ -1,0 +1,226 @@
+{
+  "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "ena_report": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA766994&result=read_run&fields=run_accession%2Csample_accession%2Cread_count%2Cbase_count%2Cfastq_bytes%2Clibrary_layout&format=tsv",
+  "exact_article_twice_ena_match_count": 18,
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "ENA read_count is paired fragments; Table 1 counts individual reads/mates. Matching counts is metadata reconciliation, not raw-read analysis.",
+    "FASTQ payloads not downloaded or analyzed; no per-sample transcript abundance matrix or independent cohort obtained.",
+    "Single experimental cohort; no product-level growth or environmental conclusion."
+  ],
+  "rows": [
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 98692524,
+      "ena_base_count": 9869252400,
+      "ena_read_count": 49346262,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 6229143916,
+      "paired": true,
+      "run_accession": "SRR16975862",
+      "sample_accession": "SAMN23283130"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 105027464,
+      "ena_base_count": 10502746400,
+      "ena_read_count": 52513732,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 6627861721,
+      "paired": true,
+      "run_accession": "SRR16988317",
+      "sample_accession": "SAMN23285525"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 114484598,
+      "ena_base_count": 11448459800,
+      "ena_read_count": 57242299,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 7227598660,
+      "paired": true,
+      "run_accession": "SRR16115861",
+      "sample_accession": "SAMN21897461"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 112257950,
+      "ena_base_count": 11225795000,
+      "ena_read_count": 56128975,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 7087301003,
+      "paired": true,
+      "run_accession": "SRR16105563",
+      "sample_accession": "SAMN21888739"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 107258770,
+      "ena_base_count": 10725877000,
+      "ena_read_count": 53629385,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 6722709980,
+      "paired": true,
+      "run_accession": "SRR16958631",
+      "sample_accession": "SAMN23208605"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 92641680,
+      "ena_base_count": 9264168000,
+      "ena_read_count": 46320840,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 5841460615,
+      "paired": true,
+      "run_accession": "SRR17446820",
+      "sample_accession": "SAMN23828911"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 100106994,
+      "ena_base_count": 10010699400,
+      "ena_read_count": 50053497,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 6400385947,
+      "paired": true,
+      "run_accession": "SRR17469864",
+      "sample_accession": "SAMN24695621"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 90177906,
+      "ena_base_count": 9017790600,
+      "ena_read_count": 45088953,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 5732902388,
+      "paired": true,
+      "run_accession": "SRR17503995",
+      "sample_accession": "SAMN24731138"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 93838306,
+      "ena_base_count": 9383830600,
+      "ena_read_count": 46919153,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 5976892665,
+      "paired": true,
+      "run_accession": "SRR17504015",
+      "sample_accession": "SAMN24722892"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 99113996,
+      "ena_base_count": 9911399600,
+      "ena_read_count": 49556998,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 6305945993,
+      "paired": true,
+      "run_accession": "SRR16097286",
+      "sample_accession": "SAMN21879926"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 117304540,
+      "ena_base_count": 11730454000,
+      "ena_read_count": 58652270,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 7342527580,
+      "paired": true,
+      "run_accession": "SRR16958615",
+      "sample_accession": "SAMN23204606"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 74841184,
+      "ena_base_count": 7484118400,
+      "ena_read_count": 37420592,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 4988684356,
+      "paired": true,
+      "run_accession": "SRR17038623",
+      "sample_accession": "SAMN23437881"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 106725990,
+      "ena_base_count": 10672599000,
+      "ena_read_count": 53362995,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 6802238447,
+      "paired": true,
+      "run_accession": "SRR17500112",
+      "sample_accession": "SAMN24730084"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 101880276,
+      "ena_base_count": 10188027600,
+      "ena_read_count": 50940138,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 6442316938,
+      "paired": true,
+      "run_accession": "SRR16122595",
+      "sample_accession": "SAMN21906090"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 115909552,
+      "ena_base_count": 11590955200,
+      "ena_read_count": 57954776,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 7279078846,
+      "paired": true,
+      "run_accession": "SRR17481976",
+      "sample_accession": "SAMN23583342"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 109834502,
+      "ena_base_count": 10983450200,
+      "ena_read_count": 54917251,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 6964456654,
+      "paired": true,
+      "run_accession": "SRR17481977",
+      "sample_accession": "SAMN23439955"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 105921688,
+      "ena_base_count": 10592168800,
+      "ena_read_count": 52960844,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 6693839284,
+      "paired": true,
+      "run_accession": "SRR17500070",
+      "sample_accession": "SAMN24746880"
+    },
+    {
+      "article_matches_two_times_ena_read_count": true,
+      "article_raw_reads": 94647236,
+      "ena_base_count": 9464723600,
+      "ena_read_count": 47323618,
+      "fastq_file_count": 2,
+      "fastq_total_bytes": 5961486391,
+      "paired": true,
+      "run_accession": "SRR17500116",
+      "sample_accession": "SAMN23829285"
+    }
+  ],
+  "runs": 18,
+  "source_sha256": {
+    "article_xml": "6990a0b622883d20407efae0eac0e860a0316b46ab68addd99d2957ffdf2f206",
+    "ena_tsv": "8c8a4622afa5eaa773cff9391509ca3bc0c093cbb07e3434348ea9bba632465c"
+  },
+  "total_article_raw_reads": 1840665156,
+  "total_ena_base_count": 184066515600,
+  "total_ena_read_count": 920332578,
+  "total_fastq_bytes": 116626831384,
+  "unique_samples": 18
+}
