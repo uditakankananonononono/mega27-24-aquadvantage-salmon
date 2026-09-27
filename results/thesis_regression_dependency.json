@@ -1,0 +1,38 @@
+{
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "interpretation": "BW is excluded as a direct Equation 9 predictor in the printed fit but re-enters indirectly through the Equation 10 LI estimate. The two printed R-squared values cannot be multiplied or combined to claim accuracy of the chained predictor.",
+  "limits": [
+    "Symbolic point-estimate substitution only; no individual data, refit, uncertainty propagation or external validation",
+    "The thesis units and population define the original fits; coefficients here are not advice or portable product predictions",
+    "No causal effect, fair comparator, novel discovery or gate credit"
+  ],
+  "literal_point_estimate_substitution": {
+    "BW_coefficient": 0.00224,
+    "PL_coefficient": -0.04332,
+    "T_coefficient": 0.203,
+    "expression": "BL (%) = 12.10558 + 0.203*T + 0.00224*BW - 0.04332*PL",
+    "intercept": 12.10558
+  },
+  "printed_models": {
+    "equation10": "LI = 1.179 + 0.112*BW + 1.484*PL",
+    "equation10_reported_r_squared": 0.986,
+    "equation9": "BL (%) = 12.082 + 0.203*T + 0.020*LI - 0.073*PL",
+    "equation9_reported_r_squared": 0.94
+  },
+  "printed_thesis_page": 64,
+  "source_markers": [
+    "BL (%) = 12.082(\u00b10.849) + 0.203(\u00b10.040)T + 0.020(\u00b10.003)LI - 0.073(\u00b10.022)PL",
+    "LI = 1.179(\u00b17.922) + 0.112(\u00b10.005)BW + 1.484(\u00b10.288)PL",
+    "r2 = 0.940",
+    "r2 = 0.986",
+    "p = 0.4201",
+    "p = 0.115"
+  ],
+  "source_sha256": "e47a52ae50a0aaa1b67a6897c433e31f5c1d81ec49611655ebae41fd90294885",
+  "source_url": "https://memorial.scholaris.ca/items/eef8b6b0-8b69-499a-a6a3-2bf0e1567743"
+}
