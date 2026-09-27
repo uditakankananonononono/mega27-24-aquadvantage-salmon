@@ -1,0 +1,356 @@
+{
+  "all_three_green": 16,
+  "author_green_counts": {
+    "S1": 1750,
+    "S2": 172,
+    "S3": 52
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Shared FPKM means and their ratio transitivity are table arithmetic, not independent transcriptome validation.",
+    "Author fold changes are method-specific modeled values and are not expected to equal or multiply like simple FPKM ratios.",
+    "Author green denotes selected DET summaries; no raw per-sample count matrix or independent cohort is analyzed.",
+    "No product-wide growth or safety inference follows."
+  ],
+  "pairwise_green_overlap": {
+    "S1_S2": 164,
+    "S1_S3": 50,
+    "S2_S3": 17
+  },
+  "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "shared_fpkm_columns_agree_count": 16,
+  "simple_fpkm_ratio_transitivity_count": 16,
+  "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9168996/supplementaryFiles",
+  "source_sha256": {
+    "S1": "36f6b9551e72e3c7709a33c4ca4f70ec003222983362899d154f6d59a5704351",
+    "S2": "fda9cf638a63a21ea6b0bbedb8f1dbc040fd12c4fe13064f649c7e4b6fa71c98",
+    "S3": "bfefc327e1518708c425c7dfd4fe36711229641278e88acf3b5f68becc5380c8"
+  },
+  "triples": [
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        2.658075169585199,
+        1.5679547151868434,
+        1.689076080323819
+      ],
+      "author_edgeR_fc": [
+        2.661209131266215,
+        1.5737090733314334,
+        1.6910426306640143
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 2.6816935359075167,
+      "direct_10_5_to_16_5_ratio": 2.6816935359075167,
+      "fpkm_10_5": 110.62034999999997,
+      "fpkm_13_5": 70.23785,
+      "fpkm_16_5": 41.25018333333333,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00011574"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.2760368872746507,
+        0.5182500420457574,
+        0.5359197950529242
+      ],
+      "author_edgeR_fc": [
+        0.2731330533563959,
+        0.5146870275626153,
+        0.5306779435453454
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.2754830183754499,
+      "direct_10_5_to_16_5_ratio": 0.2754830183754499,
+      "fpkm_10_5": 23.430850000000003,
+      "fpkm_13_5": 45.414733333333324,
+      "fpkm_16_5": 85.05369999999999,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00025805"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        2.48140103774756,
+        1.5822803556815817,
+        1.5581921437887063
+      ],
+      "author_edgeR_fc": [
+        2.490540457491301,
+        1.5924534993920505,
+        1.5639643219987935
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 2.510400678119296,
+      "direct_10_5_to_16_5_ratio": 2.510400678119296,
+      "fpkm_10_5": 357.3668333333333,
+      "fpkm_13_5": 224.22033333333331,
+      "fpkm_16_5": 142.3545,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00042438"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        21.485939710814634,
+        5.814145088620538,
+        3.4305554351303376
+      ],
+      "author_edgeR_fc": [
+        22.819262719652098,
+        6.198810570413269,
+        3.681232465558431
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 23.122806388119454,
+      "direct_10_5_to_16_5_ratio": 23.12280638811945,
+      "fpkm_10_5": 6.230155,
+      "fpkm_13_5": 1.0014751666666666,
+      "fpkm_16_5": 0.2694376666666667,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00056136"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.16829356319162278,
+        0.3514747769648912,
+        0.4844640004237794
+      ],
+      "author_edgeR_fc": [
+        0.16392919146689794,
+        0.3443561919350233,
+        0.4760454300116949
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.16502759503639824,
+      "direct_10_5_to_16_5_ratio": 0.16502759503639824,
+      "fpkm_10_5": 26.682266666666667,
+      "fpkm_13_5": 77.40563333333334,
+      "fpkm_16_5": 161.68366666666665,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00079739"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.25370521721799616,
+        0.43908701749831985,
+        0.5792070108553018
+      ],
+      "author_edgeR_fc": [
+        0.2492575379819252,
+        0.4336945834717766,
+        0.5747305764959965
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.2513206991163482,
+      "direct_10_5_to_16_5_ratio": 0.2513206991163482,
+      "fpkm_10_5": 42.073933333333336,
+      "fpkm_13_5": 96.75191666666666,
+      "fpkm_16_5": 167.41133333333332,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00079746"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.31063079314881603,
+        0.5761433278316298,
+        0.543623592089315
+      ],
+      "author_edgeR_fc": [
+        0.3070160781983496,
+        0.5703816674195291,
+        0.5382642811563795
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.3092679136483547,
+      "direct_10_5_to_16_5_ratio": 0.3092679136483547,
+      "fpkm_10_5": 4.583835,
+      "fpkm_13_5": 8.035726666666667,
+      "fpkm_16_5": 14.821566666666667,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00081182"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.42707578256257067,
+        0.6449012008055391,
+        0.6627296138970316
+      ],
+      "author_edgeR_fc": [
+        0.42318408439451116,
+        0.6431617657006291,
+        0.6579745671503279
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.42679350701507446,
+      "direct_10_5_to_16_5_ratio": 0.42679350701507446,
+      "fpkm_10_5": 92.63318333333332,
+      "fpkm_13_5": 143.51516666666666,
+      "fpkm_16_5": 217.04449999999997,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00104757"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.16683165203712333,
+        0.4139154992714742,
+        0.42207963745148314
+      ],
+      "author_edgeR_fc": [
+        0.15861975137902753,
+        0.4011679933279769,
+        0.39539483213294935
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.16002241219350322,
+      "direct_10_5_to_16_5_ratio": 0.1600224121935032,
+      "fpkm_10_5": 14.7845,
+      "fpkm_13_5": 36.727716666666666,
+      "fpkm_16_5": 92.39018333333335,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00120132"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.0719254834110757,
+        0.2925426201940174,
+        0.2667930931471973
+      ],
+      "author_edgeR_fc": [
+        0.06394173039093479,
+        0.2595904357855598,
+        0.24631774355414096
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.0645244385718269,
+      "direct_10_5_to_16_5_ratio": 0.0645244385718269,
+      "fpkm_10_5": 4.770946666666666,
+      "fpkm_13_5": 18.298983333333332,
+      "fpkm_16_5": 73.94015,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00127520"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.4026234444730785,
+        0.6592083250196983,
+        0.6116417800075269
+      ],
+      "author_edgeR_fc": [
+        0.39864144038811056,
+        0.6566443422056829,
+        0.6070888223129526
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.4017363552186548,
+      "direct_10_5_to_16_5_ratio": 0.40173635521865475,
+      "fpkm_10_5": 255.908,
+      "fpkm_13_5": 388.9843333333333,
+      "fpkm_16_5": 637.0048333333334,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00132081"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.22249722582828754,
+        0.44794686124711447,
+        0.5028068592226747
+      ],
+      "author_edgeR_fc": [
+        0.21681376472905123,
+        0.43818095152669384,
+        0.4948041761597308
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.21854213001317102,
+      "direct_10_5_to_16_5_ratio": 0.218542130013171,
+      "fpkm_10_5": 5.799128333333333,
+      "fpkm_13_5": 13.213333333333333,
+      "fpkm_16_5": 26.53551666666667,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00157114"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.17969486060708595,
+        0.4164644222884098,
+        0.4390280657369741
+      ],
+      "author_edgeR_fc": [
+        0.17681543802782546,
+        0.41046320069876746,
+        0.43077049958879876
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.17831803072616648,
+      "direct_10_5_to_16_5_ratio": 0.17831803072616648,
+      "fpkm_10_5": 15.594666666666667,
+      "fpkm_13_5": 37.87566666666667,
+      "fpkm_16_5": 87.45423333333333,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00185413"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.15286040034217716,
+        0.3468338047664664,
+        0.44782523056253004
+      ],
+      "author_edgeR_fc": [
+        0.14405169808693863,
+        0.3294104619154306,
+        0.43730152724754984
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.1453792254165368,
+      "direct_10_5_to_16_5_ratio": 0.1453792254165368,
+      "fpkm_10_5": 2.9002016666666663,
+      "fpkm_13_5": 8.768688333333333,
+      "fpkm_16_5": 19.94921666666667,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00185416"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.24171949928371073,
+        0.45724930907426986,
+        0.5309865236309773
+      ],
+      "author_edgeR_fc": [
+        0.239651681708928,
+        0.4554691043954928,
+        0.526164517848027
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.24034593135188562,
+      "direct_10_5_to_16_5_ratio": 0.24034593135188562,
+      "fpkm_10_5": 18.445,
+      "fpkm_13_5": 40.66243333333333,
+      "fpkm_16_5": 76.74355,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00211685"
+    },
+    {
+      "all_positive": true,
+      "author_DESeq2_fc": [
+        0.22193795311270378,
+        0.4604514620519348,
+        0.48545802011430733
+      ],
+      "author_edgeR_fc": [
+        0.21473219507077976,
+        0.4475915067887253,
+        0.47975037911552115
+      ],
+      "composed_10_5_to_13_5_times_13_5_to_16_5": 0.21617659292694413,
+      "direct_10_5_to_16_5_ratio": 0.21617659292694416,
+      "fpkm_10_5": 2.1481583333333334,
+      "fpkm_13_5": 4.792501666666666,
+      "fpkm_16_5": 9.937053333333333,
+      "shared_mean_columns_agree": true,
+      "transcript_id": "TCONS_00212900"
+    }
+  ]
+}
