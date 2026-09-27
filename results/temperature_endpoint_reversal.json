@@ -1,0 +1,78 @@
+{
+  "descriptive_contrast": {
+    "FCR_late_16_5_minus_10_5": 0.15000000000000002,
+    "TGC_late_16_5_minus_10_5": -0.6599999999999999,
+    "days_16_5_minus_10_5": -93
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "interpretation": "Within the same underlying temperature cohort, the warmest group reaches 1500g sooner but has lower late-interval thermal-unit growth coefficient and higher late-interval feed conversion ratio than the coolest group; endpoint choice changes the ranking.",
+  "limits": [
+    "This result is in the original thesis and is not newly discovered or independent validation of the 2022 transcript study, whose authors cite the related growth experiment.",
+    "Time-to-weight, temperature-normalized interval growth and feed efficiency answer different questions; no single best temperature follows without an explicit objective and life stage.",
+    "The thesis gives aggregate means and SEM, not individual fish-level repeated trajectories in this audit; no independent model fit, causal inference, comparator win or product safety claim."
+  ],
+  "published_values": {
+    "FCR_500_to_800_g": {
+      "means_10_5_13_5_16_5": [
+        0.81,
+        0.87,
+        0.94
+      ],
+      "sems_10_5_13_5_16_5": [
+        0.01,
+        0.03,
+        0.01
+      ]
+    },
+    "FCR_800_to_1500_g": {
+      "means_10_5_13_5_16_5": [
+        0.86,
+        0.87,
+        1.01
+      ],
+      "sems_10_5_13_5_16_5": [
+        0.01,
+        0.01,
+        0.02
+      ]
+    },
+    "TGC_500_to_800_g": {
+      "means_10_5_13_5_16_5": [
+        2.31,
+        1.45,
+        1.37
+      ],
+      "sems_10_5_13_5_16_5": [
+        0.11,
+        0.04,
+        0.04
+      ]
+    },
+    "TGC_800_to_1500_g": {
+      "means_10_5_13_5_16_5": [
+        2.09,
+        1.86,
+        1.43
+      ],
+      "sems_10_5_13_5_16_5": [
+        0.05,
+        0.06,
+        0.02
+      ]
+    },
+    "days_to_1500_g": {
+      "10.5C": 475,
+      "13.5C": 418,
+      "16.5C": 382
+    }
+  },
+  "source": "https://memorial.scholaris.ca/bitstreams/a668d444-72ba-4897-91b9-d8b38ac6257d/download",
+  "source_passage": "Fish reached an average weight of 1500 g in 382 days at 16.5\u00b0C, followed by 418 and\n\n475 days for fish reared at 13.5\u00b0C and 10.5\u00b0C, respectively.",
+  "source_sha256": "e47a52ae50a0aaa1b67a6897c433e31f5c1d81ec49611655ebae41fd90294885",
+  "source_table": "Table 2-2, thesis pages 48\u201349; downloaded PDF pages differ from thesis pagination"
+}
