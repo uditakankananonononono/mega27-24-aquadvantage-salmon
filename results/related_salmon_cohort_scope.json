@@ -1,0 +1,34 @@
+{
+  "candidate_classifications": [
+    {
+      "independent_same_task_validation": false,
+      "pmid": "24145116",
+      "relation": "separate published juvenile family comparison (AS11/AS26 vs AS25), 32K microarray and qPCR; not same temperature task or RNA-seq assay",
+      "topic": "family-specific juvenile growth and hepatic expression in GH-transgenic triploid Atlantic salmon",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24145116/"
+    },
+    {
+      "independent_same_task_validation": false,
+      "pmid": "31891812",
+      "relation": "subset of fish at 800 g from same overarching experiment according to target paper; injected pIC/PBS and assessed head-kidney qPCR at timepoints, rather than basal liver RNA-seq",
+      "topic": "three-temperature antiviral response in AquAdvantage female triploid salmon",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31891812/"
+    }
+  ],
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "A separately published sample subset is not automatically an independent rearing cohort; source identifies shared overarching experiment.",
+    "Different tissue, perturbation and assay prevent direct held-out gene-effect validation, although the 2019 result is relevant biological context.",
+    "Neither abstract supplies individual expression matrix; no accession payload, fair comparator or independent discovery credit."
+  ],
+  "medline_sha256": "0aecaf90b295aeb5664ce9c2f80c11dae8e01c16e1322fe08fc02fae74c8d014",
+  "pubmed_efetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24145116,31891812&rettype=medline&retmode=text",
+  "same_experiment_source_passage": "No differences in immune responses between triploid and diploid salmonids during both bacterial and parasitic infections have been reported ( Weber et al., 2013 ;  Frenzl et al., 2014 ;  Chalmers et al., 2016 ,  Chalmers et al., 2017 ). In contrast, some evidence suggests that triploid Atlantic salmon may mount a more effective immune response against viral agents than diploids ( Herath et al., 2017 ;  Moore et al., 2017 ;  Brown et al., 2021 ). In a subset of fish also assessed at 800\u00a0g from the same overarching experiment as the current study, the innate antiviral immune response was found to be significantly impacted by rearing temperature ( Ignatz et al., 2020a ). Significantly higher fold-change values of several immune biomarkers (i.e.,  rsad2 ,  isg15a ,  ifng ) were found in AAS reared at 10.5\u00b0C vs. 16.5\u00b0C comparing fish at 24\u00a0h post-injection with either PBS or pIC ( Ignatz et al., 2020a ). It was suggested that salmon reared at 10.5\u00b0C ultimately had a more robust innate antiviral response than both other temperature treatments ( Ignatz et al., 2020a ). From the current RNA-seq results, several GO terms including \u201cimmune system process\u201d, \u201cimmune effector process\u201d, and \u201cactivation of the innate immune response\u201d were enriched when comparing DETs between the 10.5 and 16.5\u00b0C groups. This illustrates that temperature significantly influenced basal immune-relevant transcript expression in AAS liver, with higher expression levels at 10.5 than 16.5\u00b0C. This could mean that AAS reared at 10.5\u00b0C would be more prepared to respond to pathogens and mount a more effective immune response than if they are reared at elevated temperature as previously suggested ( Ignatz et al., 2020a ), but this requires further testing. While temperature did not influence basal expression of immune-relevant genes in  Ignatz et al. (2020a) , these results differ from what has been shown in basal expression in liver and head kidney of post-smolt diploid Atlantic salmon reared at 12 and 20\u00b0C where expression was generally found higher at elevated temperature ( Zanuzzo et al., 2020 ;  Beemelmanns et al., 2021b ).",
+  "target_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "target_xml_sha256": "6990a0b622883d20407efae0eac0e860a0316b46ab68addd99d2957ffdf2f206"
+}

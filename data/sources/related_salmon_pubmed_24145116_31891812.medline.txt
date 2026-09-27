@@ -1,0 +1,251 @@
+
+PMID- 24145116
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140707
+LR  - 20131122
+IS  - 1878-0407 (Electronic)
+IS  - 1744-117X (Linking)
+VI  - 8
+IP  - 4
+DP  - 2013 Dec
+TI  - Family-specific differences in growth rate and hepatic gene expression in 
+      juvenile triploid growth hormone (GH) transgenic Atlantic salmon (Salmo salar).
+PG  - 317-33
+LID - S1744-117X(13)00051-8 [pii]
+LID - 10.1016/j.cbd.2013.09.002 [doi]
+AB  - Growth hormone transgenic (GHTg) Atlantic salmon (Salmo salar) have enhanced 
+      growth when compared to their non-transgenic counterparts, and this trait can be 
+      beneficial for aquaculture production. Biological confinement of GHTg Atlantic 
+      salmon may be achieved through the induction of triploidy (3N). The growth rates 
+      of triploid GH transgenic (3NGHTg) Atlantic salmon juveniles were found to 
+      significantly vary between families in the AquaBounty breeding program. In order 
+      to characterize gene expression associated with enhanced growth in juvenile 
+      3NGHTg Atlantic salmon, a functional genomics approach (32K cDNA microarray 
+      hybridizations followed by QPCR) was used to identify and validate liver 
+      transcripts that were differentially expressed between two fast-growing 3NGHTg 
+      Atlantic salmon families (AS11, AS26) and a slow-growing 3NGHTg Atlantic salmon 
+      family (AS25); juvenile growth rate was evaluated over a 45-day period. Of 687 
+      microarray-identified differentially expressed features, 143 (116 more highly 
+      expressed in fast-growing and 27 more highly expressed in slow-growing juveniles) 
+      were identified in the AS11 vs. AS25 microarray study, while 544 (442 more highly 
+      expressed in fast-growing and 102 more highly expressed in slow-growing 
+      juveniles) were identified in the AS26 vs. AS25 microarray study. Forty 
+      microarray features (39 putatively associated with fast growth and 1 putatively 
+      associated with slow growth) were present in both microarray experiment gene 
+      lists. The expression levels of 15 microarray-identified transcripts were studied 
+      using QPCR with individual RNA samples to validate microarray results and to 
+      study biological variability of transcript expression. The QPCR results agreed 
+      with the microarray results for 12 of 13 putative fast-growth associated 
+      transcripts, but QPCR did not validate the microarray results for 2 putative 
+      slow-growth associated transcripts. Many of the 39 microarray-identified genes 
+      putatively associated at the transcript expression level with fast-growing 3NGHTg 
+      salmon juveniles (including APOA1, APOA4, B2M, FADSD6, FTM, and GAPDH) are 
+      involved in metabolism, iron homeostasis and oxygen transport, and immune- or 
+      stress-related responses. The results of this study increase our knowledge of 
+      family-specific impacts on growth rate and hepatic gene expression in juvenile 
+      3NGHTg Atlantic salmon. In addition, this study provides a suite of putative 
+      rapid growth rate-associated transcripts that may contribute to the development 
+      of molecular markers [e.g. intronic, exonic or regulatory region single 
+      nucleotide polymorphisms (SNPs)] for the selection of GHTg Atlantic salmon 
+      broodstock that can be utilized to produce sterile triploids of desired growth 
+      performance for future commercial applications.
+CI  - (c) 2013.
+FAU - Xu, Qingheng
+AU  - Xu Q
+AD  - Ocean Sciences Centre, Memorial University of Newfoundland, St. John's, NL A1C 
+      5S7, Canada.
+FAU - Feng, Charles Y
+AU  - Feng CY
+FAU - Hori, Tiago S
+AU  - Hori TS
+FAU - Plouffe, Debbie A
+AU  - Plouffe DA
+FAU - Buchanan, John T
+AU  - Buchanan JT
+FAU - Rise, Matthew L
+AU  - Rise ML
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20131005
+PL  - Netherlands
+TA  - Comp Biochem Physiol Part D Genomics Proteomics
+JT  - Comparative biochemistry and physiology. Part D, Genomics & proteomics
+JID - 101270611
+RN  - 0 (Amino Acids)
+RN  - 9002-72-6 (Growth Hormone)
+RN  - E1UOL152H7 (Iron)
+RN  - S88TT14065 (Oxygen)
+SB  - IM
+MH  - Amino Acids/genetics/metabolism
+MH  - Animals
+MH  - Animals, Genetically Modified
+MH  - Aquaculture
+MH  - Carbohydrate Metabolism/genetics
+MH  - Gene Expression
+MH  - Growth Hormone/*genetics
+MH  - Homeostasis/genetics
+MH  - Iron/metabolism
+MH  - Lipid Metabolism/genetics
+MH  - Liver/*metabolism
+MH  - Oligonucleotide Array Sequence Analysis
+MH  - Oxygen/metabolism
+MH  - Polymerase Chain Reaction
+MH  - Salmo salar/*genetics/growth & development
+MH  - Triploidy
+OTO - NOTNLM
+OT  - Growth hormone
+OT  - Liver
+OT  - Transcript expression
+OT  - Transgenic
+OT  - Triploid
+EDAT- 2013/10/23 06:00
+MHDA- 2014/07/08 06:00
+CRDT- 2013/10/23 06:00
+PHST- 2013/06/26 00:00 [received]
+PHST- 2013/09/24 00:00 [revised]
+PHST- 2013/09/26 00:00 [accepted]
+PHST- 2013/10/23 06:00 [entrez]
+PHST- 2013/10/23 06:00 [pubmed]
+PHST- 2014/07/08 06:00 [medline]
+AID - S1744-117X(13)00051-8 [pii]
+AID - 10.1016/j.cbd.2013.09.002 [doi]
+PST - ppublish
+SO  - Comp Biochem Physiol Part D Genomics Proteomics. 2013 Dec;8(4):317-33. doi: 
+      10.1016/j.cbd.2013.09.002. Epub 2013 Oct 5.
+
+PMID- 31891812
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20201109
+LR  - 20201109
+IS  - 1095-9947 (Electronic)
+IS  - 1050-4648 (Linking)
+VI  - 97
+DP  - 2020 Feb
+TI  - Impact of rearing temperature on the innate antiviral immune response of growth 
+      hormone transgenic female triploid Atlantic salmon (Salmo salar).
+PG  - 656-668
+LID - S1050-4648(19)31220-3 [pii]
+LID - 10.1016/j.fsi.2019.12.081 [doi]
+AB  - AquAdvantage Salmon (growth hormone transgenic female triploid Atlantic salmon) 
+      are a faster-growing alternative to conventional farmed diploid Atlantic salmon. 
+      To investigate optimal rearing conditions for their commercial production, a 
+      laboratory study was conducted in a freshwater recirculating aquaculture system 
+      (RAS) to examine the effect of rearing temperature (10.5  degrees C, 13.5  degrees C, 16.5  degrees C) on 
+      their antiviral immune and stress responses. When each temperature treatment 
+      group reached an average weight of 800 g, a subset of fish were intraperitoneally 
+      injected with either polyriboinosinic polyribocytidylic acid (pIC, a viral mimic) 
+      or an equal volume of sterile phosphate-buffered saline (PBS). Blood and head 
+      kidney samples were collected before injection and 6, 24 and 48 h post-injection 
+      (hpi). Transcript abundance of 7 antiviral biomarker genes (tlr3, lgp2, stat1b, 
+      isg15a, rsad2, mxb, ifng) was measured by real-time quantitative polymerase chain 
+      reaction (qPCR) on head kidney RNA samples. Plasma cortisol levels from blood 
+      samples collected pre-injection and from pIC and PBS groups at 24 hpi were 
+      quantified by ELISA. While rearing temperature and treatment did not 
+      significantly affect circulating cortisol, all genes tested were significantly 
+      upregulated by pIC at all three temperatures (except for tlr3, which was only 
+      upregulated in the 10.5  degrees C treatment). Target gene activation was generally 
+      observed at 24 hpi, with most transcript levels decreasing by 48 hpi in 
+      pIC-injected fish. Although a high amount of biological variability in response 
+      to pIC was evident across all treatments, rearing temperature significantly 
+      influenced transcript abundance and/or fold-changes comparing time- and 
+      temperature-matched pIC- and PBS-injected fish for several genes (tlr3, lgp2, 
+      stat1b, isg15a, rsad2 and ifng) at 24 hpi. As an example, significantly higher 
+      fold-changes of rsad2, isg15a and ifng were found in fish reared at 10.5  degrees C when 
+      compared to 16.5  degrees C. Multivariate analysis confirmed that rearing temperature 
+      modulated antiviral immune response. The present experiment provides novel 
+      insight into the relationship between rearing temperature and innate antiviral 
+      immune response in AquAdvantage Salmon.
+CI  - Copyright (c) 2019 Elsevier Ltd. All rights reserved.
+FAU - Ignatz, Eric H
+AU  - Ignatz EH
+AD  - AquaBounty Canada, 718 Route 310, Fortune, PE, C0A 2B0, Canada; Memorial 
+      University, Fisheries and Marine Institute, 155 Ridge Road, St. John's, NL, A1C 
+      5R3, Canada; Memorial University, Department of Ocean Sciences, 0 Marine Lab 
+      Road, St. John's, NL, A1C 5S7, Canada. Electronic address: ehignatz@mun.ca.
+FAU - Braden, Laura M
+AU  - Braden LM
+AD  - AquaBounty Canada, 718 Route 310, Fortune, PE, C0A 2B0, Canada; Hoplite 
+      Laboratory, Department of Pathology and Microbiology, Atlantic Veterinary 
+      College, University of Prince Edward Island, 550 University Ave., Charlottetown, 
+      PE, C1A 4P3, Canada. Electronic address: lbraden@aquabounty.com.
+FAU - Benfey, Tillmann J
+AU  - Benfey TJ
+AD  - University of New Brunswick, Department of Biology, 10 Bailey Drive, Fredericton, 
+      NB, E3B 5A3, Canada. Electronic address: benfey@unb.ca.
+FAU - Caballero-Solares, Albert
+AU  - Caballero-Solares A
+AD  - Memorial University, Department of Ocean Sciences, 0 Marine Lab Road, St. John's, 
+      NL, A1C 5S7, Canada. Electronic address: acaballeroso@mun.ca.
+FAU - Hori, Tiago S
+AU  - Hori TS
+AD  - Center for Aquaculture Technologies Canada, 20 Hope Street, Souris, PE, C0A 2B0, 
+      Canada. Electronic address: Tiago@canadiancove.pe.ca.
+FAU - Runighan, C Dawn
+AU  - Runighan CD
+AD  - AquaBounty Canada, 718 Route 310, Fortune, PE, C0A 2B0, Canada. Electronic 
+      address: drunighan@aquabounty.com.
+FAU - Fast, Mark D
+AU  - Fast MD
+AD  - Hoplite Laboratory, Department of Pathology and Microbiology, Atlantic Veterinary 
+      College, University of Prince Edward Island, 550 University Ave., Charlottetown, 
+      PE, C1A 4P3, Canada. Electronic address: mfast@upei.ca.
+FAU - Westcott, Jillian D
+AU  - Westcott JD
+AD  - Memorial University, Fisheries and Marine Institute, 155 Ridge Road, St. John's, 
+      NL, A1C 5R3, Canada. Electronic address: Jillian.Westcott@mi.mun.ca.
+FAU - Rise, Matthew L
+AU  - Rise ML
+AD  - Memorial University, Department of Ocean Sciences, 0 Marine Lab Road, St. John's, 
+      NL, A1C 5S7, Canada. Electronic address: mrise@mun.ca.
+LA  - eng
+PT  - Journal Article
+DEP - 20191228
+PL  - England
+TA  - Fish Shellfish Immunol
+JT  - Fish & shellfish immunology
+JID - 9505220
+RN  - 0 (Interferon Inducers)
+RN  - 9002-72-6 (Growth Hormone)
+RN  - O84C90HH2L (Poly I-C)
+SB  - IM
+MH  - Animals
+MH  - Animals, Genetically Modified/genetics/immunology
+MH  - Aquaculture/methods
+MH  - Female
+MH  - Gene Expression/immunology
+MH  - Growth Hormone/genetics/*immunology
+MH  - *Immunity, Innate
+MH  - Interferon Inducers/administration & dosage/immunology
+MH  - Poly I-C/administration & dosage/immunology
+MH  - Salmo salar/genetics/*immunology
+MH  - Stress, Physiological/drug effects
+MH  - *Temperature
+MH  - *Triploidy
+MH  - Virus Diseases/immunology/veterinary
+OTO - NOTNLM
+OT  - Antiviral
+OT  - Atlantic salmon
+OT  - Gene expression
+OT  - Transgenic
+OT  - Triploid
+COIS- Declaration of competing interest Authors EHI, LMB and CDR were all employed by 
+      AquaBounty Canada during the time of the research. EHI performed all data 
+      analysis under the direct supervision of JDW and MLR. AquaBounty Canada had no 
+      role in the decision to publish this manuscript.
+EDAT- 2020/01/01 06:00
+MHDA- 2020/11/11 06:00
+CRDT- 2020/01/01 06:00
+PHST- 2019/09/09 00:00 [received]
+PHST- 2019/12/24 00:00 [revised]
+PHST- 2019/12/27 00:00 [accepted]
+PHST- 2020/01/01 06:00 [pubmed]
+PHST- 2020/11/11 06:00 [medline]
+PHST- 2020/01/01 06:00 [entrez]
+AID - S1050-4648(19)31220-3 [pii]
+AID - 10.1016/j.fsi.2019.12.081 [doi]
+PST - ppublish
+SO  - Fish Shellfish Immunol. 2020 Feb;97:656-668. doi: 10.1016/j.fsi.2019.12.081. Epub 
+      2019 Dec 28.
