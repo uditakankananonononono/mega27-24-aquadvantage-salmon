@@ -1,0 +1,26 @@
+{
+  "2020b_doi": "10.1016/j.aquaculture.2019.734896",
+  "article_marker_checks": {
+    "distinct_cohort_claim": false,
+    "related_growth_work": true,
+    "same_fish_fillets": true,
+    "same_overarching_experiment": true
+  },
+  "article_sha256": "6990a0b622883d20407efae0eac0e860a0316b46ab68addd99d2957ffdf2f206",
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "cited_reference": "Ignatz E. H. Dumas A. Benfey T. J. Hori T. S. Braden L. M. Runighan C. D. ( 2020b ). Growth Performance and Nutrient Utilization of Growth Hormone Transgenic Female Triploid Atlantic Salmon ( Salmo salar ) Reared at Three Temperatures in a Land-Based Freshwater Recirculating Aquaculture System (RAS) . Aquaculture 519 , 734896 . 10.1016/j.aquaculture.2019.734896",
+  "finding": "The transcriptomics paper explicitly says fillet composition came from the same fish used for liver expression and cites the 2020b growth/composition report. It also describes another immune-response subset as drawn from the same overarching experiment. Thus thesis/growth/composition and transcriptomics measures are related rather than independent held-out cohorts.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Citation/prose-level provenance audit only; participant-level crosswalk is not present in the article",
+    "The thesis includes many endpoints across growth stages and cannot be reduced to the same 18 expression libraries",
+    "No independent biological replication, model benchmark, causal or husbandry claim follows"
+  ],
+  "thesis_sha256": "e47a52ae50a0aaa1b67a6897c433e31f5c1d81ec49611655ebae41fd90294885",
+  "thesis_url": "https://memorial.scholaris.ca/items/eef8b6b0-8b69-499a-a6a3-2bf0e1567743"
+}
