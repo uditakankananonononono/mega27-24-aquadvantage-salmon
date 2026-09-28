@@ -1,0 +1,72 @@
+ISEF-style gate verdict
+
+Real positives first: the project has a credible published-data foundation. The 18-sample RNA-seq cohort is clearly identified; the ENA/paper read-count discrepancy was correctly recognized as a 2× unit reconciliation rather than a biological signal; the three supplemental spreadsheets can be reproduced at the stated threshold, including the exact 1750/172/52 author-selected lists; and the growth thesis exposes a genuinely interesting temperature trade-off between calendar-time growth and temperature-normalized growth/feed conversion. Those are useful audit and synthesis results.
+
+Gate	Verdict	Strict reasoning
+Genuine new discovery	FAIL	The packet explicitly establishes no novel biological finding. The 16 shared transcripts and 1750/172/52 sets are author-derived outputs from the same cohort, not independently generated expression discoveries. The read-count reconciliation is bookkeeping. The growth observations are previously reported thesis results.
+Fair win vs strongest named published baseline	FAIL	No named baseline has actually been benchmarked on the same task, endpoint, and held-out fish. The packet explicitly says no published growth model/degree-day/TGC comparator has run. A potential benchmark is not evidence of a win.
+Frozen independent same-task validation	FAIL	There is no untouched independent cohort with matched outcome. The related thesis/fillet material is from the same overarching experiment, and the antiviral qPCR work uses a subset of that experiment. The 2014 and 2013 studies differ in exposure, family, task, or platform.
+Plausible mechanism check	UNEVALUABLE	There are biologically suggestive temperature/growth/expression relationships, but the supplied evidence does not establish an independently tested mechanistic chain. In particular, author-selected transcript effects from the same cohort cannot serve as independent mechanistic confirmation.
+Working reusable research tool	UNEVALUABLE	The replay/audit tooling apparently verifies source identities, denominators and published derivations, but the packet provides no demonstrated reusable predictor/model, raw-FASTQ expression pipeline result, frozen benchmark, or independent test showing research utility.
+One lab-testable measurement nomination	PASS	A concrete observational measurement is supportable without redesigning the transgene: fish-level paired growth trajectory + feed intake/FCR + liver expression/tissue measurements under prespecified temperature conditions, with temperature, sex/ploidy, starting mass, exposure duration and welfare covariates recorded. This tests whether the published temperature-associated growth/tissue relationships reproduce in independently measured fish.
+Most serious weaknesses
+
+No independent biological unit.
+All 18 RNA-seq libraries come from one experiment/cohort. Evidence needed: a genuinely independent fish cohort collected under a locked protocol.
+
+Author-selected transcript lists are being treated as if they were discoveries.
+Reproducing 1750/172/52 proves faithful extraction/recalculation of the publication, not independent discovery. Evidence needed: independently processed per-sample expression data with a prespecified analysis producing a result not simply inherited from the authors' highlighted lists.
+
+No held-out outcome.
+There is no fish-level test set linking molecular measurements to an outcome unavailable during model development. Evidence needed: frozen, previously untouched fish with both predictor and outcome measurements.
+
+No fair comparator.
+There is no actual comparison against the strongest named published growth model or a prespecified ordinary TGC/degree-day model. Evidence needed: identical fish/task/outcome, identical train/test partition, locked metrics and the published comparator implemented under equivalent information constraints.
+
+Same-cohort thesis material cannot establish external replication.
+Fillet/liver and related thesis measurements originate from the same overarching cohort. Evidence needed: independent biological replication, not merely another assay or dissertation analysis of the same animals.
+
+The independent literature does not solve the validation problem.
+The 2014 heat study, 2013 juvenile GH-triploid microarray study, and 2019 antiviral qPCR study address different exposure, developmental, tissue, challenge, or endpoint contexts. Evidence needed: a study matching the project's exact prediction/measurement task.
+
+Mechanistic inference is underpowered by design.
+Correlated temperature-associated expression and growth in the same 18-fish experiment cannot distinguish mechanism from temperature response, cohort effects, or downstream consequences. Evidence needed: independently measured intermediate variables plus a preregistered mechanistic prediction tested in new observations.
+
+The apparent RNA-read discrepancy is not a finding.
+The exact 2× relationship between paper mate-read counts and ENA fragment counts is a metadata/unit reconciliation. Evidence needed for biological novelty would be an independently derived biological signal surviving appropriate sample-level analysis.
+
+Tool readiness is not demonstrated by an audit alone.
+Source/audit tables establish provenance, not that another researcher can use the system to obtain a validated scientific prediction. Evidence needed: documented input → analysis → output workflow plus an independently reproduced result and a frozen test.
+
+The stated project completion gates remain materially unmet.
+The packet itself reports open floors for 40 genuinely applied services, 120 individually fetched/used accession payloads, 10 audited derivations, 50 substantive rendered pages, a positive fair comparator, and discovery. These are not cosmetic omissions if they are locked project gates.
+
+One fresh prespecified published-data pivot
+
+Temperature–growth trade-off replication/audit using only genuinely independent published datasets, without changing the original failed hypothesis.
+
+Before looking at results, lock:
+
+the exact endpoint: e.g. temperature-normalized growth coefficient or FCR;
+
+eligible study criteria: Atlantic salmon, specified temperature exposure, GH-transgenic/AquAdvantage-relevant population where available;
+
+a fixed temperature-response model;
+
+one conventional comparator;
+
+effect-size and heterogeneity calculations;
+
+exclusion rules;
+
+no post hoc selection of favorable transcripts or temperatures.
+
+Then use newly retrieved published datasets/studies not belonging to the original 18-fish cohort to ask a narrow question: Does the reported temperature-associated growth trade-off reproduce at the level of the published growth phenotype?
+
+Importantly, this does not retroactively rescue a failed discovery or benchmark gate. If the independent literature does not support the prespecified effect, retain the negative result.
+
+Overall readiness
+
+NOT ISEF-ready as a discovery/benchmark project.
+
+At present this is strongest as a rigorous published-data provenance/reproduction and hypothesis-generation study, not as a demonstrated new biological discovery, validated predictive model, or independently benchmarked method. The most important missing ingredients are not more source-count accumulation; they are independent biological validation and a fair frozen comparator. The proposed fish-level

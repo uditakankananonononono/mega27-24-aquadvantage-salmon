@@ -1,0 +1,5 @@
+# Literal ChatGPT consultation operated in-house, 2026-09-28
+
+Conversation URL: https://chatgpt.com/c/6ab9c850-4d7c-83e8-b37a-b794887cb971
+
+The exact prompt and page-rendered reply are archived here. Positive, narrow: the reviewer recognized source-unit and author-list reconciliation, and nominated an independent fish-level paired growth, feed, tissue and welfare measurement under prespecified temperature contexts. Verdict on the evidence packet: new discovery FAIL; fair strongest-baseline win FAIL; frozen independent same-task validation FAIL; mechanism UNEVALUABLE; reusable research tool UNEVALUABLE for predictive utility; lab-testable measurement nomination PASS. Overall not ISEF-ready as discovery/benchmark. A fresh candidate question is independent published temperature-growth trade-off replication using a frozen endpoint and comparator, not a retroactive tune of the same cohort. This consultation is external opinion, not independently verified scientific gate credit; the model neither opened the repository nor ran code. The visible reply ended mid-sentence rather than waiting for a complete final thought, so no missing text was invented.
