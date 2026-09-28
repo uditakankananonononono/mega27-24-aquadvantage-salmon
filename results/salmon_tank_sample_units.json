@@ -1,0 +1,53 @@
+{
+  "article_table_1_run_accessions": [
+    "SRR16105563",
+    "SRR16115861",
+    "SRR16122595",
+    "SRR16958631",
+    "SRR16958615",
+    "SRR16975862",
+    "SRR16988317",
+    "SRR17038623",
+    "SRR17481977",
+    "SRR17503995",
+    "SRR17481976",
+    "SRR17500070",
+    "SRR16097286",
+    "SRR17446820",
+    "SRR17500116",
+    "SRR17469864",
+    "SRR17504015",
+    "SRR17500112"
+  ],
+  "finding": "The published design contains three tanks per temperature and two selected fish per tank; 18 fish RNA libraries are nested within nine tanks, not 18 independently assigned temperature units. Sampling calendar/age differs approximately 10/11/12 months for the warm/middle/cool groups because fish were size matched.",
+  "fish_rna_libraries_per_temperature": 6,
+  "fish_rna_libraries_total": 18,
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "initial_liver_samples_per_temperature": 21,
+  "limits": [
+    "The article methods do not print a Table 1 SRR-to-tank assignment; no tank-aware model is fitted or independence quantified here.",
+    "Tank-level clustering does not by itself refute the authors differential-expression findings; it limits a naive independent-fish inference.",
+    "Temperature, time-to-size, and age-at-sampling are bundled in this size-matched design, so their separate causal effects are not identified by this contrast.",
+    "The 18 Table 1 accessions are run identifiers only; no FASTQ payload is individually fetched and used in this audit.",
+    "No comparator win, new biology, independently audited derivation or paper-page credit."
+  ],
+  "rearing_quote": "AAS were grown from first feeding fry (starting weight of \u223c0.51\u00a0g) in 1.5\u00a0m 3 tanks at 10.5\u00b0C, 13.5\u00b0C, and 16.5\u00b0C (\u00b10.5\u00b0C) in triplicate. De-gassed and oxygenated freshwater from a well (<1\u00a0g/L salinity) was supplied to each tank in a RAS (10%\u201320% make-up daily), and dissolved oxygen was measured daily and maintained at >9.0\u00a0mg/L. Fish were fed commercial diets throughout the day via automatic feeders with continuous light provided. Passive integrated transponder (PIT) tags (Avid Canada Corp., Calgary, AB, Canada) were previously inserted into the peritoneal cavities of each fish when they averaged 400\u00a0g. At an average weight of 800\u00a0g, liver samples were collected to determine the overall impact of temperature on the hepatic transcriptome of AAS. Samplings took place approximately 10, 11, and 12\u00a0months after the onset of the experiment in the 16.5, 13.5, and 10.5\u00b0C treatments, respectively.",
+  "selected_fish_per_tank": 2,
+  "selected_fraction_per_temperature": 0.2857142857142857,
+  "selection_quote": "Fish were taken off feed at least 24\u00a0h in advance of sampling, and fish were euthanized by an overdose (0.4\u00a0g/L) of anesthetic (MS-222; Syndel Canada, Nanaimo, BC, Canada), buffered with an equal mass of sodium bicarbonate. As salmon at each rearing temperature reached an average weight of 800\u00a0g, fish were sampled by convenience, in that the first salmon found that fell within 700\u2013900\u00a0g were sampled. Liver samples, taken from the most distal portion of the posterior lobe, were collected using standard aseptic techniques. Samples were placed in 1\u00a0ml of RNA later \u2122 (Sigma-Aldrich, Oakville, ON, Canada) kept on ice, then stored at 4\u00b0C overnight. The RNA later was subsequently removed, and samples were stored at \u221270\u00b0C until RNA extraction. Twenty-one liver samples were collected per rearing temperature, but only two samples per tank ( n = 6 per temperature treatment) were chosen for subsequent analyses. The sample list was narrowed down to only fish that fit within \u00b11 standard deviation from the mean weight calculated after sampling and, if more than two fish per tank remained, then two were randomly chosen.",
+  "sequencing_quote": "Library construction and sequencing were performed at G\u00e9nome Qu\u00e9bec CES, with bioinformatics support provided by the Canadian Centre for Computational Genomics (C3G; Montr\u00e9al, QC, Canada) using their GenPipes next-generation sequencing data processing framework ( Bourgey et al., 2019 ). A total of 18 stranded PE100 libraries were created from the six RNA samples per rearing temperature ( Table 1 ) using the NEBNext Ultra kit. RNA sequencing was completed using three lanes (six libraries per lane) of a flow cell in an Illumina\u00ae HiSeq4000 sequencing platform. Trimming of the resulting reads were performed using Trimmomatic (v.0.36) ( Bolger et al., 2014 ). Reads were trimmed from the 3\u2032 end with a Phred score cut-off of 30. Illumina sequencing adapters were removed from the reads, and all reads were required to have a length of at least 32\u00a0bp. The filtered reads were then aligned to a reference genome ( Salmo salar assembly ICSASG_v2 taken from NCBI) using STAR (v2.5.3a) ( Dobin et al., 2013 ), creating Binary Alignment Map (BAM) files. All BAM files from the same sample were merged into one single BAM file using Picard (v.2.9.0) ( Picard Tools, 2019 ). Wiggle tracks format (wig) files were generated from the merged file using bedGraphToBigWig (ucsc-userApps v.346) ( Kent et al., 2010 ). Cufflinks (v.2.2.1) ( Roberts et al., 2011 ) was used to assemble aligned RNA-Seq reads into transcripts and estimate their abundance as fragments per kilobase of exon per million fragments mapped (FPKM). Individual count data were extracted by multiplying each Cuffnorm sample count table by the library size factors to de-normalize the counts using a method as in Myers et al. (2021) . Once transcripts were assembled and their corresponding FPKM estimated, they were annotated with a known reference set of transcripts obtained from the Ensembl database (Accession GCA_000233375). The transcript list was also annotated with putative Homo sapiens ortholog RefSeq mRNA accession identifiers based on lowest BLASTx score with an Expect (E) value cut-off <1e-5 to better assist functional annotation, which was able to successfully annotate \u223c79% of the assembled transcriptome. Typically, non-model species\u2019 gene ontology (GO) annotations are assigned by orthology and lack experimental evidence. Human annotations were added in this study as they are more reliable and allowed for further downstream analyses to be conducted (i.e., GOrilla, ClueGO).",
+  "source_sha256": "6990a0b622883d20407efae0eac0e860a0316b46ab68addd99d2957ffdf2f206",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9168996/",
+  "tanks_per_temperature": 3,
+  "temperature_count": 3,
+  "temperature_to_approximate_sampling_month": {
+    "10.5 C": 12,
+    "13.5 C": 11,
+    "16.5 C": 10
+  }
+}
