@@ -1,0 +1,76 @@
+{
+  "calendar_only_winner": "16.5C",
+  "dominated_pairs": [],
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "interpretation": "The warmest group wins calendar time but loses late-interval FCR and TGC to the coolest; multiple nondominated treatments and preference-sensitive winners preclude a source-supported unique best temperature.",
+  "limits": [
+    "Published group means are from one same-cohort study, with unknown joint fish-level uncertainty and no held-out validation.",
+    "Weighted min-max scoring is a descriptive preference illustration, not a welfare, price, profit or causal recommendation.",
+    "Temperature groups were sampled at different ages to a matched weight and fish were nested within tanks.",
+    "Pareto methods and weighted sums are established prior art; no novel algorithm or new biological discovery is claimed."
+  ],
+  "minmax_benefits_by_temperature": {
+    "10.5C": [
+      0.0,
+      1.0,
+      1.0
+    ],
+    "13.5C": [
+      0.6129032258064516,
+      0.9333333333333332,
+      0.6515151515151518
+    ],
+    "16.5C": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "objective_order": [
+    "days_to_1500g",
+    "late_FCR",
+    "late_TGC"
+  ],
+  "pareto_nondominated": [
+    "10.5C",
+    "13.5C",
+    "16.5C"
+  ],
+  "published_mean_endpoints": {
+    "days_to_1500g": [
+      475,
+      418,
+      382
+    ],
+    "late_FCR": [
+      0.86,
+      0.87,
+      1.01
+    ],
+    "late_TGC": [
+      2.09,
+      1.86,
+      1.43
+    ]
+  },
+  "source_audit_sha256": "45008e193fd3cc5fabc17d2e4192ab33f45ccb6a70617806bbd0caa7adeab882",
+  "source_url": "https://memorial.scholaris.ca/bitstreams/a668d444-72ba-4897-91b9-d8b38ac6257d/download",
+  "temperature_order": [
+    "10.5C",
+    "13.5C",
+    "16.5C"
+  ],
+  "tie_weight_vectors": 0,
+  "weight_grid_step": 0.01,
+  "weight_vectors": 5151,
+  "winner_set_counts": {
+    "10.5C": 2199,
+    "13.5C": 2372,
+    "16.5C": 580
+  }
+}
